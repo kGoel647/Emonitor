@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Initialize Style Sheets -->
+        <link href="Styles/settings.css" rel="stylesheet">
+        <link href="Styles/utility.css" rel = "stylesheet">        
+        <!-- Script to interact with HTML Content -->
+        <script>        
+            //set up electron
+            const electron = require('electron');
+            const {ipcRenderer} = electron;
+
+            //create new style
+            const style = document.createElement('style');
+
+            //Show Live Webcam Stream
+            document.addEventListener("DOMContentLoaded", () => {
+                var video = document.getElementById("videoStream");
+                if (navigator.mediaDevices.getUserMedia) {
+                navigator.mediaDevices
+                    .getUserMedia({ video: true })
+                    .then((stream) => {
+                        video.srcObject = stream;
+                    })
+                    .catch(function(error) {
+                        console.log(error);
+                    });
+                }
+                navigator.mediaDevices.enumerateDevices().then(gotDevices);
+            });
+
+            //Get Media Devices Available
+            function gotDevices(mediaDevices) {
+                let count = 1;
+                mediaDevices.forEach(mediaDevice => {
+                    if (mediaDevice.kind === 'videoinput') {
+                        const option = document.createElement('div');
+                        option.id="videoOption"+String(count);
+                        const label1 = mediaDevice.label || `Camera ${count}`;
+                        const textNode1 = document.createTextNode(label1);
+                        option.appendChild(textNode1);
+                        if(count==1){
+                            const label2 = mediaDevice.label || `Camera ${count}`;
+                            const textNode2 = document.createTextNode(label2);
+                            document.getElementById("videoSelected").appendChild(textNode2);
+                        }
+                        option.style = `transition: top ${0.166667*count}s 0s;`
+                        videoSelection.insertBefore(option, videoSelection.children[0]);
+
+                        option.classList.add("videoOptions");
+                        count++;
+                    }
+                });
+                count--;
+                //Add Styles
+                for(let i =0; i<count; i++){
+                    style.textContent += `
+                        #videoSelection:hover #${videoSelection.children[i].id}{
+                            top: ${(92*count)-(92*i)}px;
+                        `
+                    if (i!=0){
+                        style.textContent+=`
+                            border-radius: 0px;
+                        }
+                        `
+                    }
+                    else{
+                        style.textContent+=`
+                            border-radius: 0 0 12px 12px;
+                        }
+                        `
+                    }
+                }
+                style.textContent+=`
+                    #videoSelection:hover{
+                        transition: height ${0.166667*count}s 0s;
+                        height: ${(92*count)+82}px;
+                    }
+                    #videoSelection{
+                        transition: height ${0.166667*count}s 0s;
+                    }
+                `
+                document.head.appendChild(style);
+            }
+        </script>
+    </head>
+    <body>
+        <!-- Title -->
+        <h1 id="Settings">Settings</h1>
+        <!-- Camera Switch -->
+        <p id="cameraText">Camera: </p>
+        <div id = "videoSelection">
+            <div type = "button" id ="videoSelected"></div>
+        </div>
+        <!-- Webacam Stream -->
+        <div id = "videoStreamOutline" ></div>
+        <video autoplay id="videoStream"></video>
+    </body>
+</html>

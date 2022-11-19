@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Intialize Style Sheets -->}
+        <link href="Styles/home.css" rel="stylesheet">
+        <link href="Styles/utility.css" rel = "stylesheet">    
+        
+        <!-- Script to interact with HTML Content -->
+        <script>        
+
+            // Set up Electron
+            const electron = require('electron');
+            const {ipcRenderer} = electron;
+
+            //Record Function
+            function record(){
+                //Find the Record Button
+                var recordButton = document.getElementById('recordButton');
+
+                //Change Record Button Text
+                if (recordButton.innerText == 'Record') {
+                    recordButton.innerText = 'Stop Record'
+                }
+                else {
+                    recordButton.innerText = 'Record'
+                }
+
+                //Inform app.js the recording status changed
+                ipcRenderer.send("recorder:change");
+            }
+            
+            //Function to open up Settings
+            function openSettings(){           
+                ipcRenderer.send("open:settings");
+            }
+
+            //Event Listener listening for live data update 
+            ipcRenderer.on("data:update", function(e, happy, angry, surprise, sad, fear, disgust){
+                //Find all HTML DOM Objects
+                var Happy = document.getElementById('Happy');
+                var Angry = document.getElementById('Angry');
+                var Surprise = document.getElementById('Surprise');
+                var Sad = document.getElementById('Sad');
+                var Fear = document.getElementById('Fear');
+                var Disgust = document.getElementById('Disgust');
+                var happyText = document.getElementById('happyText');
+                var angryText = document.getElementById('angryText');
+                var surpriseText = document.getElementById('surpriseText');
+                var sadText = document.getElementById('sadText');
+                var fearText = document.getElementById('fearText');
+                var disgustText = document.getElementById('disgustText');
+                var happyTextHolder = document.getElementById('happyTextHolder');
+                var angryTextHolder = document.getElementById('angryTextHolder');
+                var surpriseTextHolder = document.getElementById('surpriseTextHolder');
+                var sadTextHolder = document.getElementById('sadTextHolder');
+                var fearTextHolder = document.getElementById('fearTextHolder');
+                var disgustTextHolder = document.getElementById('disgustTextHolder');
+                //Change Graph Bar Lengths
+                Happy.style.width = `${1320*happy}px`;
+                Angry.style.width= `${1320*angry}px`;
+                Surprise.style.width= `${1320*surprise}px`;
+                Sad.style.width= `${1320*sad}px`;
+                Fear.style.width= `${1320*fear}px`;
+                Disgust.style.width= `${1320*disgust}px`;
+                happyTextHolder.style.left=`${happy*1320+277}px`;
+                angryTextHolder.style.left=`${angry*1320+277}px`;
+                surpriseTextHolder.style.left=`${surprise*1320+277}px`;
+                sadTextHolder.style.left=`${sad*1320+277}px`;
+                fearTextHolder.style.left=`${fear*1320+277}px`;
+                disgustTextHolder.style.left=`${disgust*1320+277}px`;
+                //Round emotion Data
+                happy = Math.round(happy*100);
+                angry = Math.round(angry*100);
+                surprise = Math.round(surprise*100);
+                sad = Math.round(sad*100);
+                fear = Math.round(fear*100);
+                disgust = Math.round(disgust*100);
+                //Change Text for Graph Bars
+                happyText.innerText = `${happy}%`;
+                angryText.innerText = `${angry}%`;
+                surpriseText.innerText = `${surprise}%`;
+                sadText.innerText = `${sad}%`;
+                fearText.innerText = `${fear}%`;
+                disgustText.innerText = `${disgust}%`;
+            })
+        </script>
+    </head>
+    <!-- Main Body -->
+    <body visibility = "hidden" id = "body">
+        <!-- Title-->
+        <h1>EMONITOR</h1>
+        <!-- Settings Button -->
+        <button id ="settingsButton" onclick = "openSettings()">
+            <img src="Images/settings.png"/>
+        </button>
+        <!-- Record Button -->
+        <button type = "button" id="recordButton"  onclick="record()">Record</button>
+        <!-- Emojis for Grids -->
+        <div class="grid" id="emojiGrid">
+            <img src="../Emojis/happy.png" alt="Happy Emoji"> 
+            <img src="../Emojis/angry.png" alt="Angry Emoji">
+            <img src="../Emojis/surprise.png" alt="Surprise Emoji">
+            <img src="../Emojis/sad.png" alt="Sad Emoji">
+            <img src="../Emojis/fear.png" alt="Fear Emoji">
+            <img src="../Emojis/disgust.png" alt="Disgust Emoji">
+        </div>
+        <!-- Graph Bars -->
+        <div class="grid" id="graphBarGrid">
+            <div class= "graphBar" id = "Happy" style="background: #ffd400; width:1320px;"></div> 
+            <div class = "graphBar" id = "Angry" style="background: #eb5130; width:39.6px;"></div>
+            <div class = "graphBar" id = "Surprise" style="background: #fbedd9; width:26.4px;"></div>
+            <div class = "graphBar" id = "Sad" style="background: #22bbe4; width:92.4px;"></div>
+            <div class = "graphBar" id = "Fear" style="background: #b143d9; width:118.8px;"></div>
+            <div class = "graphBar" id = "Disgust" style="background: #3dc34a; width:13.2px;"></div>
+        </div>
+        <!-- Text for Graph Bars -->
+        <div id ="happyTextHolder" style = "position: absolute; left: 1597px; top: 247px; height: 40px; width: 88px; transform: rotate(90deg); transition: left 0.5s 0s;">
+            <p class="graphBarText" id = "happyText">99%</p>
+        </div>
+        <div id ="angryTextHolder" style = "position: absolute; left: 316.6px; top: 351px; height: 40px; width: 88px; transform: rotate(90deg); transition: left 0.5s 0s;">
+            <p class="graphBarText" id = "angryText">3%</p>
+        </div>
+        <div id ="surpriseTextHolder" style = "position: absolute; left: 303.4px; top: 455px; height: 40px; width: 88px; transform: rotate(90deg); transition: left 0.5s 0s;">
+            <p class="graphBarText" id = "surpriseText">2%</p>
+        </div>
+        <div id ="sadTextHolder" style = "position: absolute; left: 369.4px; top: 559px; height: 40px; width: 88px; transform: rotate(90deg); transition: left 0.5s 0s;">
+            <p class="graphBarText" id = "sadText">7%</p>
+        </div>
+        <div id ="fearTextHolder" style = "position: absolute; left: 395.8px; top: 661px; height: 40px; width: 88px; transform: rotate(90deg); transition: left 0.5s 0s;">
+            <p class="graphBarText" id = "fearText">9%</p>
+        </div>
+        <div id ="disgustTextHolder" style = "position: absolute; left: 290.2px; top: 765px; height: 40px; width: 88px; transform: rotate(90deg); transition: left 0.5s 0s;">
+            <p class="graphBarText" id = "disgustText">1%</p>
+        </div>
+        <!-- Menu Bar -->
+        <div id= "menuBar"></div>
+        <div class="grid" id="menuButtonGrid">            
+            <button class="whiteMenuButton" id = "homeButton" onclick ="window.location.href='Home.html'">
+                <img src = "./Images/home.png" style = "padding-right: 18px; padding-left: 10px;"/>
+                <span class ="buttonText">Home</span>
+            </button>
+            <button class="blackMenuButton" id = "summaryButton" onclick = "window.location.href='Summary.html'">
+                <img src = "./Images/summary.png" style = "padding-right: 18px; padding-left: 10px;"/>
+                <span class ="buttonText">Summary</span>
+            </button>
+            <button class="blackMenuButton" id = "historyButton" onclick = "window.location.href='History.html'">
+                <img src = "./Images/history.png" style = "padding-right: 18px; padding-left: 10px;"/>
+                <span class ="buttonText">History</span>
+            </button>
+        </div>
+    </body>
+</html>

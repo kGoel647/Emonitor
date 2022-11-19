@@ -1,0 +1,3 @@
+2022-11-17 18:36:11,648 | server.py-><module>():6 | WARNING | Created Flask and Request
+2022-11-17 18:36:11,649 | server.py-><module>():8 | WARNING | Imported JSON
+2022-11-17 18:36:28,538 | server.py-><module>():10 | WARNING | Imported Camera

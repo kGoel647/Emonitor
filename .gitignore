@@ -1,0 +1,5 @@
+node_modules/
+backend/CameraFeed/*
+!backend/CameraFeed/.gitkeep
+backend/LOG/log.log
+backend/__pycache__

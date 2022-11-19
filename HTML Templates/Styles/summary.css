@@ -1,0 +1,406 @@
+h1{
+    color:var(--text_color);
+    font-size: 96px;
+    text-align: center;
+    position:absolute;
+    left: 771px;
+    top: -46px;
+}
+
+
+input[type=checkbox]{
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
+
+  #Applications{
+    top:258px;
+    left: 668px;
+    position: absolute;
+    font-size: 40px;
+    font-family: "Anek Latin Regular";
+  }
+  
+  #Timings{
+    top:259px;
+    left:1028px;
+    position: absolute;
+    font-size:40px;
+    font-family: "Anek Latin Regular";
+  }
+
+  label {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 100px;
+    height: 50px;
+    background: red;
+    display: block;
+    border-radius: 100px;
+    position: relative;
+    left: 896px;
+    top: 272px;
+  }
+  
+  label:after {
+    content: '';
+    position: absolute;
+    top: 2.5px;
+    left: 2.5px;
+    width: 45px;
+    height: 45px;
+    background: #fff;
+    border-radius: 90px;
+    transition: 0.3s;
+  }
+  
+  input:checked + label {
+    background: #bada55;
+  }
+  
+  input:checked + label:after {
+    left: calc(100% - 2.5px);
+    transform: translateX(-100%);
+  }
+  
+  label:active:after {
+    width: 130px;
+  }
+
+#graphBarGrid{
+    display: grid;
+    position:absolute;
+    left: 685px;
+    top: 415.5px;
+    grid-template-columns: 964px;
+    grid-auto-rows: 88px;
+    gap: 21px;
+}
+
+.graphBar{
+    height: 88px;
+    background-image: var(--secondary-color);
+}
+
+#textGrid{
+    display: grid;
+    position:absolute;
+    left: 200px;
+    top: 406px;
+    grid-template-columns: 465px;
+    grid-auto-rows: 105px;
+    gap: 4px;
+}
+
+.appText{
+    font-family: "Anek Latin Regular";
+    font-size: 40px;
+    text-align: right;
+    padding-right: 16px;
+    /* background-color: white; */
+}
+
+#lineGrid{
+    display: grid;
+    grid-template-columns: 465px;
+    gap: 105px;
+    position: absolute;
+    left: 200px;
+    top: 403px;
+}
+
+.sepLine{
+    height: 4px;
+    width: 465px;
+    background-color: black;
+}
+
+#graphTextLine{
+    width: 4px;
+    height: 549px;
+    background-color:black;
+    position:absolute;
+    left: 665px;
+    top: 403px;
+}
+
+#dropDownGrid{
+    display: grid;
+    grid-template-columns: 128px 128px 128px 128px;
+    position:absolute;
+    left: 404px;
+    top: 157px;
+    gap: 200px;
+}
+
+#selectButton{
+    width: 128px;
+    height:88px;
+    border-radius: 12px;
+    background-image: var(--secondary-color);
+    font-size: 40px;
+    font-family: "Anek Latin Regular";
+    border: none;
+    position: relative;
+}
+
+#selectButton:hover {
+    background: white;
+    color: #01e1e1;
+}
+
+.emojiDropDown{
+    width:128px;
+    height: 88px;
+    background-color: rgb(158, 157, 157);
+    position:absolute;
+    border-radius: 12px;
+    transition: height 1s 0s;
+    position: relative
+}
+
+.emojiDropDownSelected{
+    width: 128px;
+    height: 88px;
+    border-radius: 12px;
+    background-color: white;
+    position: relative;
+}
+
+.emojiDropDownOptions{
+    height: 88px;
+    width: 128px;
+    background-color: white;
+    position:absolute;
+    top: 0px;
+    border-radius: 12px;
+    transition: border-radius 0s 1s;
+}
+
+.option{
+    position:relative;
+    left: 32px;
+    top: 12px;
+}
+
+#emojiDropDownOption11{
+    transition: top 0.166667s 0s;
+}
+#emojiDropDownOption12{
+    transition: top 0.333333s 0s;
+}
+#emojiDropDownOption13{
+    transition: top 0.500000s 0s;
+}
+#emojiDropDownOption14{
+    transition: top 0.666667s 0s;
+}
+#emojiDropDownOption15{
+    transition: top 0.833333s 0s;
+}
+#emojiDropDownOption16{
+    transition: top 1.000000s 0s;
+}
+
+#emojiDropDownOption17{
+    transition: top 1.166667s 0s;
+}
+
+#emojiDropDown1:hover #emojiDropDownOption11{
+    top: 92px;
+    border-radius: 0px;
+}
+
+#emojiDropDown1:hover #emojiDropDownOption12{
+    top: 184px;
+    border-radius: 0px;
+}
+
+#emojiDropDown1:hover #emojiDropDownOption13{
+    top: 276px;
+    border-radius: 0px;
+}
+
+#emojiDropDown1:hover #emojiDropDownOption14{
+    top: 368px;
+    border-radius: 0px;
+}
+
+#emojiDropDown1:hover #emojiDropDownOption15{
+    top: 460px;
+    border-radius: 0px;
+}
+
+#emojiDropDown1:hover #emojiDropDownOption16{
+    top: 552px;
+    border-radius: 0px;
+}
+
+#emojiDropDown1:hover #emojiDropDownOption17{
+    top: 644px;
+    border-radius: 0 0 12px 12px;
+}
+
+#emojiDropDown1:hover{
+    transition: height 1.166667s 0s;
+    height: 732px;
+}
+
+#emojiDropDown1:hover #emojiDropDownSelected1{
+    border-radius: 12px 12px 0 0;
+}
+
+#emojiDropDownOption21{
+    transition: top 0.166667s 0s;
+}
+#emojiDropDownOption22{
+    transition: top 0.333333s 0s;
+}
+#emojiDropDownOption23{
+    transition: top 0.500000s 0s;
+}
+#emojiDropDownOption24{
+    transition: top 0.666667s 0s;
+}
+#emojiDropDownOption25{
+    transition: top 0.833333s 0s;
+}
+#emojiDropDownOption26{
+    transition: top 1.000000s 0s;
+}
+
+#emojiDropDownOption27{
+    transition: top 1.16667s 0s;
+}
+
+#emojiDropDown2:hover #emojiDropDownOption21{
+    top: 92px;
+    border-radius: 0px;
+}
+
+#emojiDropDown2:hover #emojiDropDownOption22{
+    top: 184px;
+    border-radius: 0px;
+}
+
+#emojiDropDown2:hover #emojiDropDownOption23{
+    top: 276px;
+    border-radius: 0px;
+}
+
+#emojiDropDown2:hover #emojiDropDownOption24{
+    top: 368px;
+    border-radius: 0px;
+}
+
+#emojiDropDown2:hover #emojiDropDownOption25{
+    top: 460px;
+    border-radius: 0px;
+}
+
+#emojiDropDown2:hover #emojiDropDownOption26{
+    top: 552px;
+    border-radius: 0px;
+}
+
+#emojiDropDown2:hover #emojiDropDownOption27{
+    top: 644px;
+    border-radius: 0 0 12px 12px;
+}
+
+#emojiDropDown2:hover{
+    transition: height 1.166667s 0s;
+    height: 726px;
+}
+
+#emojiDropDown2:hover #emojiDropDownSelected2{
+    border-radius: 12px 12px 0 0;
+}
+
+#emojiDropDownOption31{
+    transition: top 0.166667s 0s;
+}
+#emojiDropDownOption32{
+    transition: top 0.333333s 0s;
+}
+#emojiDropDownOption33{
+    transition: top 0.500000s 0s;
+}
+#emojiDropDownOption34{
+    transition: top 0.666667s 0s;
+}
+#emojiDropDownOption35{
+    transition: top 0.833333s 0s;
+}
+#emojiDropDownOption36{
+    transition: top 1.000000s 0s;
+}
+
+#emojiDropDownOption37{
+    transition: top 1.166667s 0s;
+}
+
+#emojiDropDown3:hover #emojiDropDownOption31{
+    top: 92px;
+    border-radius: 0px;
+}
+
+#emojiDropDown3:hover #emojiDropDownOption32{
+    top: 184px;
+    border-radius: 0px;
+}
+
+#emojiDropDown3:hover #emojiDropDownOption33{
+    top: 276px;
+    border-radius: 0px;
+}
+
+#emojiDropDown3:hover #emojiDropDownOption34{
+    top: 368px;
+    border-radius: 0px;
+}
+
+#emojiDropDown3:hover #emojiDropDownOption35{
+    top: 460px;
+    border-radius: 0px;
+}
+
+#emojiDropDown3:hover #emojiDropDownOption36{
+    top: 552px;
+    border-radius: 0px;
+}
+
+#emojiDropDown3:hover #emojiDropDownOption37{
+    top: 644px;
+    border-radius: 0 0 12px 12px;
+}
+
+#emojiDropDown3:hover{
+    transition: height 1.166667s 0s;
+    height: 726px;
+}
+
+#emojiDropDown3:hover #emojiDropDownSelected3{
+    border-radius: 12px 12px 0 0;
+}
+
+#homeButton:hover{
+    background-color: white;
+    max-width: 240px;
+    -webkit-transition: max-width 1s 0.5s;
+    transition: max-width 1s 0.5s;
+}
+
+#summaryButton:hover {
+    max-width: 319px;
+    -webkit-transition: 1s max-width 0.5s;
+    transition: 1s max-width 0.5s;
+}
+
+#historyButton:hover{
+    background-color: white;
+    max-width: 268px;
+    -webkit-transition: max-width 1s 0.5s;
+    transition: max-width 1s 0.5s;
+}

@@ -1,0 +1,137 @@
+#videoStream{
+    position: absolute;
+    right: 40px;
+    top: 202px;
+    width: 512px;
+}
+
+input[type=checkbox]{
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
+  
+  label {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 100px;
+    height: 50px;
+    background: red;
+    display: block;
+    border-radius: 100px;
+    position: relative;
+  }
+  
+  label:after {
+    content: '';
+    position: absolute;
+    top: 2.5px;
+    left: 2.5px;
+    width: 45px;
+    height: 45px;
+    background: #fff;
+    border-radius: 90px;
+    transition: 0.3s;
+  }
+  
+  input:checked + label {
+    background: #bada55;
+  }
+  
+  input:checked + label:after {
+    left: calc(100% - 2.5px);
+    transform: translateX(-100%);
+  }
+  
+  label:active:after {
+    width: 130px;
+  }
+
+p{
+    font-family: "Anek Latin Regular";
+}
+
+#videoSelection{
+    width:300px;
+    height: 88px;
+    background-color: rgb(158, 157, 157);
+    position:absolute;
+    left:256px;
+    top: 250px;
+    border-radius: 12px;
+}
+
+#videoSelected{
+    width: 300px;
+    height: 88px;
+    border-radius: 12px;
+    background-color: white;
+    position: absolute;
+    font-family: 'Anek Latin Regular';
+    font-size: 36px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.videoOptions{
+    height: 88px;
+    width: 300px;
+    background-color: white;
+    position:absolute;
+    border-radius: 12px;
+    top:0px;
+    font-family: 'Anek Latin Regular';
+    font-size: 36px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#videoSelection:hover #videoSelected{
+    border-radius: 12px 12px 0 0;
+}
+
+#Settings{
+    position:relative;
+    text-align: center;
+    top: -46px;
+    font-size: 96px;
+}
+
+#cameraText{
+    position: absolute;
+    left: 48px;
+    top: 228px;
+}
+
+#timingGrid{
+    position:absolute;
+    left:48px;
+    top:432px;
+    gap:16px;
+    width: 060px;
+}
+
+#videoStreamOutline{
+    position:absolute;
+    right: 32px;
+    top: 194px;
+    width: 528px;
+    height:400px;
+    background: #00C2FF;
+}
+
+input{
+    height: 40px;
+    font-family: 'Anek Latin Regular';
+    font-size: 40px;
+    border-color: transparent;
+    width: 200px;
+    border-radius: 12px;
+}
+
+p{
+    font-family: 'Anek Latin Regular';
+    font-size: 40px;
+}

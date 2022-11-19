@@ -1,0 +1,108 @@
+:root{
+    --text_color:black;
+    --background-color: linear-gradient(231.84deg, rgba(24, 244, 192, 0.65) 5.72%, rgba(71, 209, 5, 0.46) 118.97%);
+    --secondary-color: linear-gradient(264.79deg, #1CB6E7 -6.6%, #4DDEEF 102.09%);
+}
+
+*{
+    color:var(--text_color); 
+}
+
+html {
+    height: 100%;
+}
+
+h1{
+    font-family: "Anek Latin Thin";
+}
+
+body{
+    background-image: var(--background-color);
+}
+
+p{
+    font-family: "Anek Latin Regular";
+    color: var(--text_color);
+}
+
+.whiteMenuButton{
+    background-color: white;
+    max-width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border-color: transparent;
+    display:inline-flex;
+    align-items: center;
+    overflow:hidden;
+    width: auto;
+    -webkit-transition: 0s max-width;
+    transition: 0s max-width;
+}
+
+#settingsButton{
+    position:absolute;
+    bottom: 32px;
+    right: 32px;
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50px;
+    background-color: black;
+}
+
+#settingsButton:hover{
+    background-color: white;
+}
+
+.blackMenuButton{
+    background-color: black;
+    max-width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border-color: transparent;
+    display: inline-flex;
+    align-items: center;
+    overflow:hidden;
+    width: auto;    
+}
+
+.buttonText{
+    color: #01e1e1;
+    font-size: 48px;
+    font-family: "Roboto Bold";
+    padding-right: 32px;
+}
+
+#menuButtonGrid{
+    display:grid;
+    grid-template-columns: 400px;
+    grid-auto-rows: 96px;
+    gap: 32px;
+    position: absolute;
+    left: 8px;
+    top: 32px;
+}
+
+@font-face {
+    font-family: 'Anek Latin Thin'; /*a name to be used later*/
+    src: url('../Fonts/AnekLatin-Thin.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Anek Latin Regular';
+    src:url('../Fonts/AnekLatin-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto Bold';
+    src: url('../Fonts/Roboto-Bold.ttf');
+}
+
+#menuBar{
+    width:112px;
+    height:1026px;
+    position:absolute;
+    left:0px;
+    top:0px;
+    background-color: black;
+}
