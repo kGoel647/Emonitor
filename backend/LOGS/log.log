@@ -1,181 +1,24 @@
-2022-11-19 12:28:05,123 | server.py-><module>():6 | WARNING | Created Flask and Request
-2022-11-19 12:28:05,125 | server.py-><module>():8 | WARNING | Imported JSON
-2022-11-19 12:28:05,810 | server.py-><module>():10 | WARNING | Imported Camera
-2022-11-19 12:28:05,828 | main.py-><module>():6 | WARNING | YOU
-2022-11-19 12:28:05,828 | main.py-><module>():9 | WARNING | YOU
-2022-11-19 12:28:12,415 | main.py-><module>():12 | WARNING | YOU
-2022-11-19 12:28:12,415 | data.py-><module>():6 | WARNING | YOUaw
-2022-11-19 12:28:12,415 | data.py-><module>():8 | WARNING | HI
-2022-11-19 12:28:12,415 | data.py-><module>():10 | WARNING | HI
-2022-11-19 12:28:12,639 | data.py-><module>():12 | WARNING | HI
-2022-11-19 12:28:12,639 | data.py-><module>():14 | WARNING | HI
-2022-11-19 12:28:12,639 | data.py-><module>():16 | WARNING | HI
-2022-11-19 12:28:12,639 | main.py-><module>():15 | WARNING | YOU
-2022-11-19 12:28:12,639 | main.py-><module>():18 | WARNING | YOU
-2022-11-19 12:28:12,639 | main.py-><module>():21 | WARNING | OKAY
-2022-11-19 12:28:12,639 | server.py-><module>():12 | WARNING | Imported Main
-2022-11-19 12:28:12,639 | server.py-><module>():14 | WARNING | Imported Sys
-2022-11-19 12:28:12,639 | server.py-><module>():18 | WARNING | high
-2022-11-19 12:28:12,641 | server.py-><module>():21 | WARNING | Setup Flask
-2022-11-19 12:28:12,641 | main.py->__init__():28 | WARNING | started
-2022-11-19 12:28:12,641 | main.py->__init__():31 | WARNING | Created Main Object
-2022-11-19 12:28:14,493 | main.py->__init__():35 | WARNING | Created Camera Object
-2022-11-19 12:28:15,003 | main.py->__init__():38 | WARNING | Created FER Object
-2022-11-19 12:28:15,012 | main.py->__init__():41 | WARNING | Created Data Object
-2022-11-19 12:28:15,024 | server.py-><module>():76 | WARNING | Ready to accept
-2022-11-19 12:28:15,027 | _internal.py->_log():224 | INFO |  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
-2022-11-19 12:28:15,254 | main.py->analyze():69 | WARNING | Empty Data List Being Sent
-2022-11-19 12:28:15,600 | main.py->analyze():69 | WARNING | Empty Data List Being Sent
-2022-11-19 12:28:15,981 | main.py->analyze():69 | WARNING | Empty Data List Being Sent
-2022-11-19 12:28:16,218 | main.py->analyze():69 | WARNING | Empty Data List Being Sent
-2022-11-19 12:28:16,479 | main.py->analyze():69 | WARNING | Empty Data List Being Sent
-2022-11-19 12:28:16,792 | main.py->analyze():69 | WARNING | Empty Data List Being Sent
-2022-11-19 12:28:17,169 | main.py->analyze():69 | WARNING | Empty Data List Being Sent
-2022-11-19 12:28:20,437 | server.py->isAngry():27 | WARNING | CHECKING IF ANGRY
-2022-11-19 12:28:20,451 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:20] "POST /takeimage HTTP/1.1" 200 -
-2022-11-19 12:28:20,454 | main.py->isAngry():46 | WARNING | False
-2022-11-19 12:28:20,455 | server.py->isAngry():29 | WARNING | 0
-2022-11-19 12:28:20,456 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:20] "POST /isangry HTTP/1.1" 200 -
-2022-11-19 12:28:20,928 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:20] "POST /takeimage HTTP/1.1" 200 -
-2022-11-19 12:28:20,930 | server.py->isAngry():27 | WARNING | CHECKING IF ANGRY
-2022-11-19 12:28:20,930 | main.py->isAngry():46 | WARNING | False
-2022-11-19 12:28:20,931 | server.py->isAngry():29 | WARNING | 0
-2022-11-19 12:28:20,931 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:20] "POST /isangry HTTP/1.1" 200 -
-2022-11-19 12:28:21,437 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:21] "POST /takeimage HTTP/1.1" 200 -
-2022-11-19 12:28:21,438 | server.py->isAngry():27 | WARNING | CHECKING IF ANGRY
-2022-11-19 12:28:21,439 | main.py->isAngry():46 | WARNING | False
-2022-11-19 12:28:21,440 | server.py->isAngry():29 | WARNING | 0
-2022-11-19 12:28:21,440 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:21] "POST /isangry HTTP/1.1" 200 -
-2022-11-19 12:28:21,939 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:21] "POST /takeimage HTTP/1.1" 200 -
-2022-11-19 12:28:21,940 | server.py->isAngry():27 | WARNING | CHECKING IF ANGRY
-2022-11-19 12:28:21,941 | main.py->isAngry():46 | WARNING | False
-2022-11-19 12:28:21,942 | server.py->isAngry():29 | WARNING | 0
-2022-11-19 12:28:21,942 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:21] "POST /isangry HTTP/1.1" 200 -
-2022-11-19 12:28:22,446 | server.py->isAngry():27 | WARNING | CHECKING IF ANGRY
-2022-11-19 12:28:22,447 | main.py->isAngry():46 | WARNING | False
-2022-11-19 12:28:22,449 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:22] "POST /takeimage HTTP/1.1" 200 -
-2022-11-19 12:28:22,453 | server.py->isAngry():29 | WARNING | 0
-2022-11-19 12:28:22,453 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:22] "POST /isangry HTTP/1.1" 200 -
-2022-11-19 12:28:22,954 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:22] "POST /takeimage HTTP/1.1" 200 -
-2022-11-19 12:28:22,955 | server.py->isAngry():27 | WARNING | CHECKING IF ANGRY
-2022-11-19 12:28:22,956 | main.py->isAngry():46 | WARNING | False
-2022-11-19 12:28:22,958 | server.py->isAngry():29 | WARNING | 0
-2022-11-19 12:28:22,958 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:22] "POST /isangry HTTP/1.1" 200 -
-2022-11-19 12:28:23,460 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:23] "POST /takeimage HTTP/1.1" 200 -
-2022-11-19 12:28:23,461 | server.py->isAngry():27 | WARNING | CHECKING IF ANGRY
-2022-11-19 12:28:23,462 | main.py->isAngry():46 | WARNING | False
-2022-11-19 12:28:23,464 | server.py->isAngry():29 | WARNING | 0
-2022-11-19 12:28:23,464 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:23] "POST /isangry HTTP/1.1" 200 -
-2022-11-19 12:28:23,968 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:23] "POST /takeimage HTTP/1.1" 200 -
-2022-11-19 12:28:23,970 | server.py->isAngry():27 | WARNING | CHECKING IF ANGRY
-2022-11-19 12:28:23,971 | main.py->isAngry():46 | WARNING | False
-2022-11-19 12:28:23,972 | server.py->isAngry():29 | WARNING | 0
-2022-11-19 12:28:23,972 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:23] "POST /isangry HTTP/1.1" 200 -
-2022-11-19 12:28:24,473 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:24] "POST /takeimage HTTP/1.1" 200 -
-2022-11-19 12:28:24,474 | server.py->isAngry():27 | WARNING | CHECKING IF ANGRY
-2022-11-19 12:28:24,475 | main.py->isAngry():46 | WARNING | False
-2022-11-19 12:28:24,476 | server.py->isAngry():29 | WARNING | 0
-2022-11-19 12:28:24,476 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:24] "POST /isangry HTTP/1.1" 200 -
-2022-11-19 12:28:24,977 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:24] "POST /takeimage HTTP/1.1" 200 -
-2022-11-19 12:28:24,979 | server.py->isAngry():27 | WARNING | CHECKING IF ANGRY
-2022-11-19 12:28:24,980 | main.py->isAngry():46 | WARNING | False
-2022-11-19 12:28:24,981 | server.py->isAngry():29 | WARNING | 0
-2022-11-19 12:28:24,981 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:24] "POST /isangry HTTP/1.1" 200 -
-2022-11-19 12:28:25,488 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:25] "POST /takeimage HTTP/1.1" 200 -
-2022-11-19 12:28:25,489 | server.py->isAngry():27 | WARNING | CHECKING IF ANGRY
-2022-11-19 12:28:25,489 | main.py->isAngry():46 | WARNING | False
-2022-11-19 12:28:25,490 | server.py->isAngry():29 | WARNING | 0
-2022-11-19 12:28:25,490 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:25] "POST /isangry HTTP/1.1" 200 -
-2022-11-19 12:28:25,986 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:25] "POST /takeimage HTTP/1.1" 200 -
-2022-11-19 12:28:25,987 | server.py->isAngry():27 | WARNING | CHECKING IF ANGRY
-2022-11-19 12:28:25,987 | main.py->isAngry():46 | WARNING | False
-2022-11-19 12:28:25,988 | server.py->isAngry():29 | WARNING | 0
-2022-11-19 12:28:25,988 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:25] "POST /isangry HTTP/1.1" 200 -
-2022-11-19 12:28:26,248 | server.py->endSession():51 | WARNING | END SESSION
-2022-11-19 12:28:26,252 | data.py->endSession():122 | WARNING | uploaded session data to csv
-2022-11-19 12:28:26,255 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:26] "POST /endsession HTTP/1.1" 200 -
-2022-11-19 12:28:49,201 | server.py->isAngry():27 | WARNING | CHECKING IF ANGRY
-2022-11-19 12:28:49,204 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:49] "POST /takeimage HTTP/1.1" 200 -
-2022-11-19 12:28:49,206 | main.py->isAngry():46 | WARNING | False
-2022-11-19 12:28:49,207 | server.py->isAngry():29 | WARNING | 0
-2022-11-19 12:28:49,207 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:49] "POST /isangry HTTP/1.1" 200 -
-2022-11-19 12:28:49,689 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:49] "POST /takeimage HTTP/1.1" 200 -
-2022-11-19 12:28:49,691 | server.py->isAngry():27 | WARNING | CHECKING IF ANGRY
-2022-11-19 12:28:49,692 | main.py->isAngry():46 | WARNING | False
-2022-11-19 12:28:49,693 | server.py->isAngry():29 | WARNING | 0
-2022-11-19 12:28:49,693 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:49] "POST /isangry HTTP/1.1" 200 -
-2022-11-19 12:28:50,196 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:50] "POST /takeimage HTTP/1.1" 200 -
-2022-11-19 12:28:50,198 | server.py->isAngry():27 | WARNING | CHECKING IF ANGRY
-2022-11-19 12:28:50,199 | main.py->isAngry():46 | WARNING | False
-2022-11-19 12:28:50,199 | server.py->isAngry():29 | WARNING | 0
-2022-11-19 12:28:50,200 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:50] "POST /isangry HTTP/1.1" 200 -
-2022-11-19 12:28:50,697 | server.py->isAngry():27 | WARNING | CHECKING IF ANGRY
-2022-11-19 12:28:50,698 | main.py->isAngry():46 | WARNING | False
-2022-11-19 12:28:50,699 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:50] "POST /takeimage HTTP/1.1" 200 -
-2022-11-19 12:28:50,700 | server.py->isAngry():29 | WARNING | 0
-2022-11-19 12:28:50,701 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:50] "POST /isangry HTTP/1.1" 200 -
-2022-11-19 12:28:51,204 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:51] "POST /takeimage HTTP/1.1" 200 -
-2022-11-19 12:28:51,206 | server.py->isAngry():27 | WARNING | CHECKING IF ANGRY
-2022-11-19 12:28:51,207 | main.py->isAngry():46 | WARNING | False
-2022-11-19 12:28:51,207 | server.py->isAngry():29 | WARNING | 0
-2022-11-19 12:28:51,208 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:51] "POST /isangry HTTP/1.1" 200 -
-2022-11-19 12:28:51,710 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:51] "POST /takeimage HTTP/1.1" 200 -
-2022-11-19 12:28:51,712 | server.py->isAngry():27 | WARNING | CHECKING IF ANGRY
-2022-11-19 12:28:51,713 | main.py->isAngry():46 | WARNING | False
-2022-11-19 12:28:51,713 | server.py->isAngry():29 | WARNING | 0
-2022-11-19 12:28:51,714 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:51] "POST /isangry HTTP/1.1" 200 -
-2022-11-19 12:28:52,212 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:52] "POST /takeimage HTTP/1.1" 200 -
-2022-11-19 12:28:52,212 | server.py->isAngry():27 | WARNING | CHECKING IF ANGRY
-2022-11-19 12:28:52,213 | main.py->isAngry():46 | WARNING | False
-2022-11-19 12:28:52,213 | server.py->isAngry():29 | WARNING | 0
-2022-11-19 12:28:52,213 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:52] "POST /isangry HTTP/1.1" 200 -
-2022-11-19 12:28:52,720 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:52] "POST /takeimage HTTP/1.1" 200 -
-2022-11-19 12:28:52,720 | server.py->isAngry():27 | WARNING | CHECKING IF ANGRY
-2022-11-19 12:28:52,721 | main.py->isAngry():46 | WARNING | False
-2022-11-19 12:28:52,721 | server.py->isAngry():29 | WARNING | 0
-2022-11-19 12:28:52,721 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:52] "POST /isangry HTTP/1.1" 200 -
-2022-11-19 12:28:53,228 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:53] "POST /takeimage HTTP/1.1" 200 -
-2022-11-19 12:28:53,229 | server.py->isAngry():27 | WARNING | CHECKING IF ANGRY
-2022-11-19 12:28:53,231 | main.py->isAngry():46 | WARNING | False
-2022-11-19 12:28:53,232 | server.py->isAngry():29 | WARNING | 0
-2022-11-19 12:28:53,232 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:53] "POST /isangry HTTP/1.1" 200 -
-2022-11-19 12:28:53,732 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:53] "POST /takeimage HTTP/1.1" 200 -
-2022-11-19 12:28:53,734 | server.py->isAngry():27 | WARNING | CHECKING IF ANGRY
-2022-11-19 12:28:53,735 | main.py->isAngry():46 | WARNING | False
-2022-11-19 12:28:53,735 | server.py->isAngry():29 | WARNING | 0
-2022-11-19 12:28:53,736 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:53] "POST /isangry HTTP/1.1" 200 -
-2022-11-19 12:28:54,242 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:54] "POST /takeimage HTTP/1.1" 200 -
-2022-11-19 12:28:54,244 | server.py->isAngry():27 | WARNING | CHECKING IF ANGRY
-2022-11-19 12:28:54,245 | main.py->isAngry():46 | WARNING | False
-2022-11-19 12:28:54,246 | server.py->isAngry():29 | WARNING | 0
-2022-11-19 12:28:54,246 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:54] "POST /isangry HTTP/1.1" 200 -
-2022-11-19 12:28:54,746 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:54] "POST /takeimage HTTP/1.1" 200 -
-2022-11-19 12:28:54,747 | server.py->isAngry():27 | WARNING | CHECKING IF ANGRY
-2022-11-19 12:28:54,748 | main.py->isAngry():46 | WARNING | False
-2022-11-19 12:28:54,749 | server.py->isAngry():29 | WARNING | 0
-2022-11-19 12:28:54,750 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:54] "POST /isangry HTTP/1.1" 200 -
-2022-11-19 12:28:55,254 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:55] "POST /takeimage HTTP/1.1" 200 -
-2022-11-19 12:28:55,255 | server.py->isAngry():27 | WARNING | CHECKING IF ANGRY
-2022-11-19 12:28:55,256 | main.py->isAngry():46 | WARNING | False
-2022-11-19 12:28:55,257 | server.py->isAngry():29 | WARNING | 0
-2022-11-19 12:28:55,257 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:55] "POST /isangry HTTP/1.1" 200 -
-2022-11-19 12:28:55,758 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:55] "POST /takeimage HTTP/1.1" 200 -
-2022-11-19 12:28:55,760 | server.py->isAngry():27 | WARNING | CHECKING IF ANGRY
-2022-11-19 12:28:55,761 | main.py->isAngry():46 | WARNING | False
-2022-11-19 12:28:55,762 | server.py->isAngry():29 | WARNING | 0
-2022-11-19 12:28:55,762 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:55] "POST /isangry HTTP/1.1" 200 -
-2022-11-19 12:28:56,261 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:56] "POST /takeimage HTTP/1.1" 200 -
-2022-11-19 12:28:56,263 | server.py->isAngry():27 | WARNING | CHECKING IF ANGRY
-2022-11-19 12:28:56,264 | main.py->isAngry():46 | WARNING | False
-2022-11-19 12:28:56,265 | server.py->isAngry():29 | WARNING | 0
-2022-11-19 12:28:56,266 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:56] "POST /isangry HTTP/1.1" 200 -
-2022-11-19 12:28:56,765 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:56] "POST /takeimage HTTP/1.1" 200 -
-2022-11-19 12:28:56,767 | server.py->isAngry():27 | WARNING | CHECKING IF ANGRY
-2022-11-19 12:28:56,769 | main.py->isAngry():46 | WARNING | False
-2022-11-19 12:28:56,769 | server.py->isAngry():29 | WARNING | 0
-2022-11-19 12:28:56,770 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:56] "POST /isangry HTTP/1.1" 200 -
-2022-11-19 12:28:57,271 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:57] "POST /takeimage HTTP/1.1" 200 -
-2022-11-19 12:28:57,272 | server.py->isAngry():27 | WARNING | CHECKING IF ANGRY
-2022-11-19 12:28:57,273 | main.py->isAngry():46 | WARNING | False
-2022-11-19 12:28:57,274 | server.py->isAngry():29 | WARNING | 0
-2022-11-19 12:28:57,274 | _internal.py->_log():224 | INFO | 127.0.0.1 - - [19/Nov/2022 12:28:57] "POST /isangry HTTP/1.1" 200 -
+2022-11-19 12:30:33,046 | server.py-><module>():6 | WARNING | Created Flask and Request
+2022-11-19 12:30:33,046 | server.py-><module>():8 | WARNING | Imported JSON
+2022-11-19 12:30:33,943 | server.py-><module>():10 | WARNING | Imported Camera
+2022-11-19 12:30:33,945 | main.py-><module>():6 | WARNING | YOU
+2022-11-19 12:30:33,949 | main.py-><module>():9 | WARNING | YOU
+2022-11-19 12:30:41,611 | main.py-><module>():12 | WARNING | YOU
+2022-11-19 12:30:41,612 | data.py-><module>():6 | WARNING | YOUaw
+2022-11-19 12:30:41,612 | data.py-><module>():8 | WARNING | HI
+2022-11-19 12:30:41,612 | data.py-><module>():10 | WARNING | HI
+2022-11-19 12:30:41,967 | data.py-><module>():12 | WARNING | HI
+2022-11-19 12:30:41,967 | data.py-><module>():14 | WARNING | HI
+2022-11-19 12:30:41,967 | data.py-><module>():16 | WARNING | HI
+2022-11-19 12:30:41,967 | main.py-><module>():15 | WARNING | YOU
+2022-11-19 12:30:41,968 | main.py-><module>():18 | WARNING | YOU
+2022-11-19 12:30:41,968 | main.py-><module>():21 | WARNING | OKAY
+2022-11-19 12:30:41,968 | server.py-><module>():12 | WARNING | Imported Main
+2022-11-19 12:30:41,968 | server.py-><module>():14 | WARNING | Imported Sys
+2022-11-19 12:30:41,968 | server.py-><module>():18 | WARNING | high
+2022-11-19 12:30:41,970 | server.py-><module>():21 | WARNING | Setup Flask
+2022-11-19 12:30:41,970 | main.py->__init__():28 | WARNING | started
+2022-11-19 12:30:41,970 | main.py->__init__():31 | WARNING | Created Main Object
+2022-11-19 12:30:44,373 | main.py->__init__():35 | WARNING | Created Camera Object
+2022-11-19 12:30:44,887 | main.py->__init__():38 | WARNING | Created FER Object
+2022-11-19 12:30:44,902 | main.py->__init__():41 | WARNING | Created Data Object
