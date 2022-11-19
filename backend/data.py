@@ -1,12 +1,19 @@
-
-import pandas as pd
-from datetime import datetime
 import logging
 import logging.config
-import focusedApplication
-import matplotlib.pyplot as plt
-import numpy as np
+
 logger = logging.getLogger(__name__)
+
+logger.warning("YOUaw")
+import pandas as pd
+logger.warning("HI")
+from datetime import datetime
+logger.warning("HI")
+import focusedApplication
+logger.warning("HI")
+import matplotlib.pyplot as plt
+logger.warning("HI")
+import numpy as np
+logger.warning("HI")
 
 #Handles all data processing for backend server
 class Data:
@@ -39,7 +46,7 @@ class Data:
 
     #Takes data and summarizes the data by time. Requires 3 emotions to analyze including none
     def summarizeTimes(self, emotion1, emotion2, emotion3):
-        data = pd.read_csv("backend/sessionData.csv")
+        data = pd.read_csv("sessionData.csv")
         timeEmotion = {}
         dataSplits = [data.iloc[int(len(data.index)/5) * i:int(len(data.index)/5) * (i+1)] for i in range(5)]
         totalEQ = 0
@@ -71,7 +78,7 @@ class Data:
 
     #Summarizes data by application. Requires three different emotions
     def summarizeApps(self, emotion1, emotion2, emotion3):
-        data = pd.read_csv("backend/sessionData.csv")
+        data = pd.read_csv("sessionData.csv")
         appsFocused = list(data['application'])
         appEmotion = {}
         appTimes = {}
@@ -111,7 +118,7 @@ class Data:
                
     #Ends the current session and resets the pandas dataframe
     def endSession(self):
-        self.sessionDF.to_csv("backend/sessionData.csv")
+        self.sessionDF.to_csv("sessionData.csv")
         logger.warning("uploaded session data to csv")
         self.sessionDF = pd.DataFrame(columns=["time", "application", "angry", "disgust", "fear", "happy", "sad", "surprise"])
 
@@ -168,5 +175,5 @@ class Data:
 #Testing as main to summarize times
 if __name__ == "__main__":
     d = Data()
-    d.loadData("backend/data.csv")
+    d.loadData("data.csv")
     d.summarizeTimes("angry", "sad", "happy")

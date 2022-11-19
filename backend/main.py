@@ -1,17 +1,31 @@
-from camera import Camera
-from facialEmotionRecognition import EmotionalAnalyzer 
-from data import Data
-import pandas as pd
-from datetime import datetime
+
+
 import time, logging
 import logging.config
 logger = logging.getLogger(__name__)
+logger.warning('YOU')
+from camera import Camera
+
+logger.warning('YOU')
+from facialEmotionRecognition import EmotionalAnalyzer 
+
+logger.warning('YOU')
+from data import Data
+
+logger.warning('YOU')
+import pandas as pd
+
+logger.warning('YOU')
+from datetime import datetime
+
+logger.warning("OKAY")
 
 #Main Function that controls the rest of the backend server
 class Main:
 
     #Initializes all different modules
     def __init__(self):
+        logger.warning("started")
         self.now = datetime.now()
         self.analyzedData = pd.DataFrame
         logger.warning("Created Main Object")
@@ -74,8 +88,9 @@ class Main:
 
 #Testing main function
 if __name__ == "__main__":
-    import loggerScript
+    logger.warning("OKAY")
     logger = logging.getLogger(__name__)
+    logger.warning("hui")
     m = Main()
     m.analyze()
 

@@ -13,8 +13,9 @@ logger.warning("Imported Main")
 import sys
 logger.warning("Imported Sys") 
 from threading import Thread
+logger.warning
 from data import Data
-   
+logger.warning("high")
 # Setup flask server
 app = Flask(__name__) 
 logger.warning("Setup Flask") 

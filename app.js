@@ -111,6 +111,7 @@ async function isAngry() {
 
 //record an image
 async function record() {
+    console.log('recording');
 	var data = {
         "photoSize": 1
 	}

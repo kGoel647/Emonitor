@@ -6,16 +6,8 @@
   "scripts": {
     "start": "electron ."
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MehulG873/UberHackathon2022.git"
-  },
   "author": "Real AI",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/MehulG873/UberHackathon2022/issues"
-  },
-  "homepage": "https://github.com/MehulG873/UberHackathon2022#readme",
   "dependencies": {
     "electron": "^19.0.9",
     "node-notifier": "^10.0.1",
