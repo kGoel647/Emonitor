@@ -1,24 +1,24 @@
-2022-11-19 12:30:33,046 | server.py-><module>():6 | WARNING | Created Flask and Request
-2022-11-19 12:30:33,046 | server.py-><module>():8 | WARNING | Imported JSON
-2022-11-19 12:30:33,943 | server.py-><module>():10 | WARNING | Imported Camera
-2022-11-19 12:30:33,945 | main.py-><module>():6 | WARNING | YOU
-2022-11-19 12:30:33,949 | main.py-><module>():9 | WARNING | YOU
-2022-11-19 12:30:41,611 | main.py-><module>():12 | WARNING | YOU
-2022-11-19 12:30:41,612 | data.py-><module>():6 | WARNING | YOUaw
-2022-11-19 12:30:41,612 | data.py-><module>():8 | WARNING | HI
-2022-11-19 12:30:41,612 | data.py-><module>():10 | WARNING | HI
-2022-11-19 12:30:41,967 | data.py-><module>():12 | WARNING | HI
-2022-11-19 12:30:41,967 | data.py-><module>():14 | WARNING | HI
-2022-11-19 12:30:41,967 | data.py-><module>():16 | WARNING | HI
-2022-11-19 12:30:41,967 | main.py-><module>():15 | WARNING | YOU
-2022-11-19 12:30:41,968 | main.py-><module>():18 | WARNING | YOU
-2022-11-19 12:30:41,968 | main.py-><module>():21 | WARNING | OKAY
-2022-11-19 12:30:41,968 | server.py-><module>():12 | WARNING | Imported Main
-2022-11-19 12:30:41,968 | server.py-><module>():14 | WARNING | Imported Sys
-2022-11-19 12:30:41,968 | server.py-><module>():18 | WARNING | high
-2022-11-19 12:30:41,970 | server.py-><module>():21 | WARNING | Setup Flask
-2022-11-19 12:30:41,970 | main.py->__init__():28 | WARNING | started
-2022-11-19 12:30:41,970 | main.py->__init__():31 | WARNING | Created Main Object
-2022-11-19 12:30:44,373 | main.py->__init__():35 | WARNING | Created Camera Object
-2022-11-19 12:30:44,887 | main.py->__init__():38 | WARNING | Created FER Object
-2022-11-19 12:30:44,902 | main.py->__init__():41 | WARNING | Created Data Object
+2022-11-19 12:31:38,654 | server.py-><module>():6 | WARNING | Created Flask and Request
+2022-11-19 12:31:38,655 | server.py-><module>():8 | WARNING | Imported JSON
+2022-11-19 12:31:39,394 | server.py-><module>():10 | WARNING | Imported Camera
+2022-11-19 12:31:39,394 | main.py-><module>():6 | WARNING | YOU
+2022-11-19 12:31:39,394 | main.py-><module>():9 | WARNING | YOU
+2022-11-19 12:31:45,878 | main.py-><module>():12 | WARNING | YOU
+2022-11-19 12:31:45,879 | data.py-><module>():6 | WARNING | YOUaw
+2022-11-19 12:31:45,879 | data.py-><module>():8 | WARNING | HI
+2022-11-19 12:31:45,879 | data.py-><module>():10 | WARNING | HI
+2022-11-19 12:31:46,137 | data.py-><module>():12 | WARNING | HI
+2022-11-19 12:31:46,138 | data.py-><module>():14 | WARNING | HI
+2022-11-19 12:31:46,138 | data.py-><module>():16 | WARNING | HI
+2022-11-19 12:31:46,138 | main.py-><module>():15 | WARNING | YOU
+2022-11-19 12:31:46,138 | main.py-><module>():18 | WARNING | YOU
+2022-11-19 12:31:46,138 | main.py-><module>():21 | WARNING | OKAY
+2022-11-19 12:31:46,138 | server.py-><module>():12 | WARNING | Imported Main
+2022-11-19 12:31:46,138 | server.py-><module>():14 | WARNING | Imported Sys
+2022-11-19 12:31:46,138 | server.py-><module>():18 | WARNING | high
+2022-11-19 12:31:46,140 | server.py-><module>():21 | WARNING | Setup Flask
+2022-11-19 12:31:46,140 | main.py->__init__():28 | WARNING | started
+2022-11-19 12:31:46,140 | main.py->__init__():31 | WARNING | Created Main Object
+2022-11-19 12:31:48,158 | main.py->__init__():35 | WARNING | Created Camera Object
+2022-11-19 12:31:48,599 | main.py->__init__():38 | WARNING | Created FER Object
+2022-11-19 12:31:48,614 | main.py->__init__():41 | WARNING | Created Data Object

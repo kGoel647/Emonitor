@@ -1,6 +1,5 @@
 import logging
 from time import sleep
-import loggerScript
 logger = logging.getLogger(__name__)
 from flask import Flask, request
 logger.warning("Created Flask and Request")
