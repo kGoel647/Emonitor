@@ -25,7 +25,7 @@ class Camera:
         self.cam = cv.VideoCapture(cam_port)
 
         #Creating Image Folder
-        self.directory = "CameraFeed\{}".format(self.dt_string)
+        self.directory = "backend/CameraFeed/{}".format(self.dt_string)
         parent_dir = os.path.abspath(os.path.join(os.getcwd(), os.pardir))
         path = os.path.join(parent_dir, self.directory)
         logger.warning("create photo:  "+path)
@@ -40,12 +40,13 @@ class Camera:
         result, image = self.cam.read(0)
         picTime = self.now.strftime("%H:%M:%S")
         while not result:
-            cv.imwrite(self.directory + "\{}.jpg".format(picTime), image)
             self.now = datetime.now()
             result, image = self.cam.read(0)
             picTime = self.now.strftime("%H:%M:%S")
         # saving image in local storage
-        cv.imwrite(self.directory + "\{}.jpg".format(picTime), image)
-        return self.directory + "\{}.jpg".format(picTime)
+        cv.imwrite(r'C:\Users\knott\lhslechacks\LECHacks\LECHacks\backend\CameraFeed\2022_11_19_22_54_05\i52.jpg'.format(picTime), image)
+        logger.error(self.directory)
+        logger.error(str(image))
+        return r'C:\Users\knott\lhslechacks\LECHacks\LECHacks\backend\CameraFeed\2022_11_19_22_54_05\i52.jpg'
     
 

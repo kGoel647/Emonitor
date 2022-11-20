@@ -15,17 +15,17 @@ class EmotionalAnalyzer:
   #Analyzes image and returns values of each image
   def analyzeImage(self, imgDirectory):
     self.file = imgDirectory
-    logger.debug(self.file)
+    logger.warning(self.file)
     self.input_image = cv2.imread(self.file)
     # Output image's information
     # Save output in result variable
     self.result = self.emotion_detector.detect_emotions(self.input_image)
-    logger.debug(self.result)
+    logger.warning(self.result)
 
     # self.createImage(saveImage=True, showImage=False)
     return self.result
   
-  def createImage(self, saveImage = False, showImage = False):
+  def createImage(self, saveImage = True, showImage = True):
     bounding_box = self.result[0]["box"]
     emotions = self.result[0]["emotions"]
     cv2.rectangle(self.input_image,(
@@ -44,11 +44,11 @@ class EmotionalAnalyzer:
     
     #Save the result in new image file
     if (saveImage):    
-      cv2.imwrite(self.file.replace(".", "_out."), self.input_image)
+      cv2.imwrite("./a.out", self.input_image)
 
     # Read image file using matplotlib's image module
     if (showImage):
-      result_image = mpimg.imread(self.file.replace(".", "_out."))
+      result_image = mpimg.imread(self.input_image)
       # Display Output Image
       plt.show()
 

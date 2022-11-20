@@ -140,6 +140,7 @@ async function record() {
 			result = parsedBody['emotions'];
             console.log(result);
             MainWindow.webContents.send("data:update", result[5], result[2], result[7], result[6], result[4], result[3]);
+            console.log(result)
             return parsedBody['emotions'];
 		})
 		.catch(function (err) {
