@@ -40,15 +40,14 @@ body {
 .side {
     display: flex;
     flex-direction: column;
-    background-color: #0998eb;
+    background-color: #0998eb00;
     top: 0;
     left: 0;
     margin: 0;
     padding: 0;
-    width: 1vw;
+    width: 0.01%;
     height: 32vw;
-    padding: 10px;
-    border-radius: 20%;
+    padding: 4px;
 }
 
 #emojiGrid{

@@ -1,12 +1,14 @@
 # program to capture images from webcam at certain times.
 
 # imports
+
+import logging
+logger = logging.getLogger(__name__)
 import cv2 as cv
+logger.warning("hji")
 from datetime import datetime
 import time
 import os
-import logging
-logger = logging.getLogger(__name__)
 
 #define class Camera for capturing images
 class Camera:
@@ -25,7 +27,7 @@ class Camera:
         self.cam = cv.VideoCapture(cam_port)
 
         #Creating Image Folder
-        self.directory = "CameraFeed/{}".format(self.dt_string)
+        self.directory = "backend/CameraFeed/{}".format(self.dt_string)
         parent_dir = os.path.abspath(os.path.join(os.getcwd(), os.pardir))
         path = os.path.join(parent_dir, self.directory)
         logger.warning("create photo:  "+path)
@@ -35,16 +37,10 @@ class Camera:
 
     #Takes Photo from webcam and returns directory of image
     def takePhoto(self):
-        logger.warning("a")
         self.now = datetime.now()
-        logger.warning("b")
-
         result, image = self.cam.read()
-        logger.warning("c")
         picTime = self.now.strftime("%H:%M:%S")
-        logger.warning("d")
         while not result:
-            cv.imwrite(self.directory + "\{}.jpg".format(picTime), image)
             self.now = datetime.now()
             result, image = self.cam.read()
             picTime = self.now.strftime("%H:%M:%S")

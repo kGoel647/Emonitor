@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <!-- Intialize Style Sheets -->}
+        <!-- Intialize Style Sheets -->
         <link href="Styles/home.css" rel="stylesheet">
         <link href="Styles/utility.css" rel = "stylesheet">    
         
@@ -33,6 +33,10 @@
             function openSettings(){           
                 ipcRenderer.send("open:settings");
             }
+            function QUIT(){           
+                ipcRenderer.send("app:quit");
+            }
+
 
             //Event Listener listening for live data update 
             ipcRenderer.on("data:update", function(e, happy, angry, surprise, sad, fear, disgust){
@@ -90,8 +94,8 @@
         <!-- Title-->
         <div class="side" id="menuButtonGrid">            
             <button class="whiteMenuButton" id = "homeButton" onclick ="openSettings()">
-                <img src = "./Images/home.png" style = "padding-right: 10px; padding-left: 10px;"/>
-                <span class ="buttonText">Home</span>
+                <img src = "./Images/settings.png" style = "padding-right: 10px; padding-left: 10px;"/>
+                <span class ="buttonText">Settings</span>
             </button>
             <button class="blackMenuButton" id = "summaryButton" onclick = "window.location.href='Summary.html'">
                 <img src = "./Images/summary.png" style = "padding-right: 10px; padding-left: 10px;"/>
@@ -102,8 +106,9 @@
                 <span class ="buttonText">History</span>
             </button>
         </div>
+        <div style="float:right;background-color:#eb5130;padding:5px;margin: 10px;" onclick="QUIT()">X</div>
         <div class="nav">
-            <h1>The AppThatRecordsYou</h1>
+            <h1>EMONITOR</h1>
         </div>
         
         <!-- Settings Button -->
@@ -120,23 +125,23 @@
             </div>
             <div class="ind">
                 <img src="../Emojis/angry.png" alt="Happy Emoji"> 
-                <div class= "graphBar" id = "Happy" style="background: #eb5130; width:39.6px;"></div>
+                <div class= "graphBar" id = "Angry" style="background: #eb5130; width:39.6px;"></div>
             </div>
             <div class="ind">
                 <img src="../Emojis/surprise.png" alt="Happy Emoji"> 
-                <div class= "graphBar" id = "Happy" style="background: #fbedd9; width: 26.4px;"></div>
+                <div class= "graphBar" id = "Surprise" style="background: #fbedd9; width: 26.4px;"></div>
             </div>
             <div class="ind">
                 <img src="../Emojis/sad.png" alt="Happy Emoji"> 
-                <div class= "graphBar" id = "Happy" style="background: #22bbe4; width:92.4px;"></div>
+                <div class= "graphBar" id = "Sad" style="background: #22bbe4; width:92.4px;"></div>
             </div>
             <div class="ind">
                 <img src="../Emojis/fear.png" alt="Happy Emoji"> 
-                <div class= "graphBar" id = "Happy" style="background: #b143d9; width:118.8px;"></div>
+                <div class= "graphBar" id = "Fear" style="background: #b143d9; width:118.8px;"></div>
             </div>
             <div class="ind">
                 <img src="../Emojis/disgust.png" alt="Happy Emoji"> 
-                <div class= "graphBar" id = "Happy" style="background: #3dc34a; width:13.2px;"></div>
+                <div class= "graphBar" id = "Disgust" style="background: #3dc34a; width:13.2px;"></div>
             </div>
         </div>
         <button type = "button" id="recordButton"  onclick="record()">Record</button>

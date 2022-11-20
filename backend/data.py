@@ -3,11 +3,19 @@ import logging.config
 
 logger = logging.getLogger(__name__)
 
+logger.warning("YOUaw")
 import pandas as pd
+logger.warning("HI")
 from datetime import datetime
+logger.warning("HI")
 import focusedApplication
+logger.warning("HI")
 import matplotlib.pyplot as plt
+logger.warning("HI")
 import numpy as np
+logger.warning("HI")
+
+#Handles all data processing for backend server
 class Data:
 
     #Initialization function that creates two dataframes

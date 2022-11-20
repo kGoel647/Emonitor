@@ -1,19 +1,17 @@
-
-
 import time, logging
 import logging.config
 logger = logging.getLogger(__name__)
-logger.warning("done")
 from camera import Camera
-logger.warning("done")
+logger.warning("af")
 from facialEmotionRecognition import EmotionalAnalyzer 
-logger.warning("done")
+logger.warning("awf")
 from data import Data
-logger.warning("done")
+logger.warning("AWf")
 import pandas as pd
-logger.warning("done")
+logger.warning("awf")
 from datetime import datetime
-logger.warning("done")
+
+from createGraph import graph
 
 #Main Function that controls the rest of the backend server
 class Main:
@@ -34,9 +32,14 @@ class Main:
 
         self.data = Data()
         logger.warning("Created Data Object")
-        self.data.loadData("backend\data.csv")
+        self.data.loadData("backend/data.csv")
         logger.warning("Loaded Data")
         self.recording=False
+
+        self.graph = graph()
+        logger.warning("loaded")
+        self.graph.main_thing()
+        logger.warning("graphed")
 
     #Checks if user is angry
     def isAngry(self):
@@ -76,7 +79,7 @@ class Main:
         # self.data.generateGraph()
         if (self.recording):
             self.data.addRow(data)
-            self.data.writeData("backend\data.csv")
+            self.data.writeData("backend/data.csv")
         return data
 
     #Writes data to csv
@@ -85,7 +88,9 @@ class Main:
 
 #Testing main function
 if __name__ == "__main__":
+    logger.warning("OKAY")
     logger = logging.getLogger(__name__)
+    logger.warning("hui")
     m = Main()
     m.analyze()
 

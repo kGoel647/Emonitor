@@ -14,15 +14,11 @@ var recording = false;
 // Listen for the app to ready:
 app.on('ready', function () {
     MainWindow = new BrowserWindow({
-        webPreferences: {nodeIntegration: true, contextIsolation: false, enableRemoteModule: true},
-        width:1600,
-        height: 900});
+        webPreferences: {nodeIntegration: true, contextIsolation: false, enableRemoteModule: true} });
     MainWindow.loadURL(url.format({
         pathname: path.join(__dirname, 'HTML Templates/Home.html'),
         protocol: 'file:',
-        slashes: true,
-        
-        
+        slashes: true
     }));
 
     MainWindow.on('closed', function(){
@@ -46,7 +42,10 @@ app.on('ready', function () {
     childPython.on("close", (code) => {
         console.log(`exited on code: ${code}`)
     })
+    console.log("hi"
+    )
     startLoop()
+    console.log("hi")
 });
 
 //Start Loop For Recording
@@ -64,7 +63,7 @@ function startLoop(){
 //Send the Angry Notification
 function sendAngryNotification(){
     lastAngry = 15
-    new Notification({title: "AppThatRecordsYou", body:'Woah! Calm down and try to smile!'}).show()
+    new Notification({title: "Emonitor", body:'Woah! Calm down and try to smile!'}).show()
 }
 
 // Create Main Menu Template
@@ -220,7 +219,7 @@ function createSettingsWindow(){
     
     SettingsWindow = new BrowserWindow({
         width: 1200, 
-        height: 820, 
+        height: 720, 
         title: 'Settings',
         resizable: false, 
         fullscreen: false,
@@ -237,6 +236,29 @@ function createSettingsWindow(){
         SettingsWindow=null
     });
 }
+
+//listener to open settings
+ipcMain.on("open:settings", function(e){
+    if(SettingsWindow==null){
+        createSettingsWindow();
+    }
+    else{
+        SettingsWindow.show();
+    }
+})
+
+//listener to change recording status
+ipcMain.on("recorder:change", function(e){
+    recording=!recording;
+    if (!recording){
+        endSession();
+    }
+});
+
+//listener to start summary maker
+ipcMain.on("summary:emotions", function(e, emotion1, emotion2, emotion3, comparing){
+    var appEmo = summarize(emotion1, emotion2, emotion3, comparing)
+})
 
 function createHelpWindow(){
     
@@ -256,16 +278,6 @@ function createHelpWindow(){
     });
 }
 
-
-//listener to open settings
-ipcMain.on("open:settings", function(e){
-    if(SettingsWindow==null){
-        createSettingsWindow();
-    }
-    else{
-        SettingsWindow.show();
-    }
-})
 ipcMain.on("open:TPHELP", function(e){
     if(SettingsWindow==null){
         createHelpWindow();
@@ -273,16 +285,4 @@ ipcMain.on("open:TPHELP", function(e){
     else{
         SettingsWindow.show();
     }
-})
-//listener to change recording status
-ipcMain.on("recorder:change", function(e){
-    recording=!recording;
-    if (!recording){
-        endSession();
-    }
-});
-
-//listener to start summary maker
-ipcMain.on("summary:emotions", function(e, emotion1, emotion2, emotion3, comparing){
-    var appEmo = summarize(emotion1, emotion2, emotion3, comparing)
 })

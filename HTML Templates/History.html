@@ -17,15 +17,19 @@
             function tpHELP(){
                 ipcRenderer.send("open:TPHELP");
             }
+            function QUIT(){           
+                ipcRenderer.send("app:quit");
+            }
         </script>
     </head>
     <!-- Main Body -->
     <body>
         <!-- Title -->
+        <div style="float:right;background-color:#eb5130;padding:5px;margin: 10px;" onclick="QUIT()">X</div>
         <h1>History</h1>
         <!-- Graph Image -->
         <div class="conta">
-            <img id = "Graph" src = "../history.svg">
+            <img id = "Graph" src = "../backend/graph.png">
         </div>
         
         <!-- Menu Bar -->
@@ -39,12 +43,12 @@
                 <img src = "./Images/summary.png" style = "padding-right: 18px; padding-left: 10px;"/>
                 <span class ="buttonText">Summary</span>
             </button>
-            <button class="whiteMenuButton" id = "historyButton" onclick = "openSettings()">
+            <button class="whiteMenuButton" id = "historyButton" onclick = "">
                 <img src = "./Images/history.png" style = "padding-right: 18px; padding-left: 10px;"/>
                 <span class ="buttonText">History</span>
             </button>
         </div>
-        <div><div style="background-color: rgb(92, 5, 255);padding:20px;float:right;margin-right:20px;border-radius:5px;" onclick="tpHELP()"><p>Feeling stressed and want to call a therapist? Click here.</p></div></div>
+        <div style="margin:0 auto;"><div style="background-color: rgb(92, 5, 255);padding:20px;border-radius:5px;width:25vw;float:right; " onclick="tpHELP()"><p>Feeling stressed and want to call a therapist? Click here.</p></div></div>
         <!-- Settings Button -->
         <!-- <button id ="settingsButton" onclick = "openSettings()">
             <img src="Images/settings.png"/>

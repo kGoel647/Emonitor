@@ -1,9 +1,15 @@
-import cv2
-from fer import FER
-import matplotlib.pyplot as plt
-import matplotlib.image as mpimg
+
 import logging
 logger = logging.getLogger(__name__)
+import cv2
+logger.warning("wf")
+logger.warning("wf")
+from fer import FER
+logger.warning("wf")
+import matplotlib.pyplot as plt
+logger.warning("wf")
+import matplotlib.image as mpimg
+logger.warning("wf")
 
 #Class that does all the machine learning processing
 class EmotionalAnalyzer:

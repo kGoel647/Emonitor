@@ -1,59 +1,12 @@
 h1{
     color:var(--text_color);
-    font-size: 9vh;
+    font-size: 7vh;
     text-align: center;
-    margin: 5vh auto;
+    margin: 0 auto;
     margin-left: 5vw;
-}
-/* 
-body {
-    background-color: #
-} */
-
-.table {
-    display: flex;
-    flex-direction: column;
-    margin-left: 12vw;
-    margin-top: 10vh;
+    margin-top: 2vh;
 }
 
-.show {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-bottom: 5vh;
-}
-
-.pls {
-    display: flex;
-    justify-content: flex-start;
-    margin-right: 7vw;
-}
-
-.pls > * {
-    margin-right: 3vw;
-}
-
-.show .emojiDropDown {
-    margin-right: 10vw;
-}
-
-.item {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.item p {
-    padding: 3vh;
-    border-bottom:3px solid black;
-    border-right: 3px solid black;
-}
-
-.item .graphBar {
-    margin-left: 3vw;
-}
 
 input[type=checkbox]{
     height: 0;
@@ -62,7 +15,7 @@ input[type=checkbox]{
   }
 
   #Applications{
-    top:258px;
+    top:276px;
     left: 668px;
     position: absolute;
     font-size: 40px;
@@ -70,7 +23,7 @@ input[type=checkbox]{
   }
   
   #Timings{
-    top:259px;
+    top:276px;
     left:1028px;
     position: absolute;
     font-size:40px;
@@ -87,7 +40,7 @@ input[type=checkbox]{
     border-radius: 100px;
     position: relative;
     left: 896px;
-    top: 272px;
+    top: 150px;
   }
   
   label:after {
@@ -163,7 +116,6 @@ input[type=checkbox]{
     background-color: black;
 }
 
-
 #graphTextLine{
     width: 4px;
     height: 549px;
@@ -199,8 +151,8 @@ input[type=checkbox]{
 }
 
 .emojiDropDown{
-    width:5vw;
-    height: 10vh;
+    width:128px;
+    height: 88px;
     background-color: rgb(158, 157, 157);
     position:absolute;
     border-radius: 12px;
