@@ -1027,3 +1027,1000 @@ INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a
 INFO:werkzeug:[33mPress CTRL+C to quit[0m
 WARNING:root:Closed Server
 WARNING:data:wrote data to csv
+WARNING:root:Created Flask and Request
+WARNING:root:Imported JSON
+WARNING:root:Imported Camera
+WARNING:root:Imported Main
+WARNING:root:Imported Sys
+WARNING:root:high
+WARNING:root:Setup Flask
+WARNING:main:started
+WARNING:main:Created Main Object
+WARNING:camera:in cam
+WARNING:camera:create photo:  C:\Users\knott\lhslechacks\LECHacks\backend\CameraFeed\2022_11_19_18_19_19
+WARNING:camera:Done
+WARNING:main:Created Camera Object
+WARNING:main:Created FER Object
+WARNING:main:Created Data Object
+WARNING:data:loading Data
+WARNING:main:Loaded Data
+WARNING:root:Ready to accept
+WARNING:camera:a
+WARNING:camera:b
+WARNING:camera:c
+WARNING:camera:d
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+WARNING:root:Closed Server
+WARNING:data:wrote data to csv
+WARNING:root:Created Flask and Request
+WARNING:root:Imported JSON
+WARNING:root:Imported Camera
+WARNING:root:Imported Main
+WARNING:root:Imported Sys
+WARNING:root:high
+WARNING:root:Setup Flask
+WARNING:main:started
+WARNING:main:Created Main Object
+WARNING:camera:in cam
+WARNING:camera:create photo:  C:\Users\knott\lhslechacks\LECHacks\backend\CameraFeed\2022_11_19_21_31_57
+WARNING:camera:Done
+WARNING:main:Created Camera Object
+WARNING:main:Created FER Object
+WARNING:main:Created Data Object
+WARNING:data:loading Data
+WARNING:main:Loaded Data
+WARNING:root:Ready to accept
+WARNING:camera:a
+WARNING:camera:b
+WARNING:camera:c
+WARNING:camera:d
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+WARNING:root:Closed Server
+WARNING:data:wrote data to csv
+WARNING:root:Created Flask and Request
+WARNING:root:Imported JSON
+WARNING:root:Imported Camera
+WARNING:root:Created Flask and Request
+WARNING:root:Imported JSON
+WARNING:root:Imported Camera
+WARNING:root:Created Flask and Request
+WARNING:root:Imported JSON
+WARNING:root:Imported Camera
+WARNING:root:Created Flask and Request
+WARNING:root:Imported JSON
+WARNING:root:Imported Camera
+WARNING:root:Created Flask and Request
+WARNING:root:Imported JSON
+WARNING:root:Imported Camera
+WARNING:root:Created Flask and Request
+WARNING:root:Imported JSON
+WARNING:root:Imported Camera
+WARNING:root:Created Flask and Request
+WARNING:root:Imported JSON
+WARNING:root:Imported Camera
+WARNING:root:Created Flask and Request
+WARNING:root:Imported JSON
+WARNING:root:Imported Camera
+WARNING:root:Imported Main
+WARNING:root:Imported Sys
+WARNING:root:high
+WARNING:root:Setup Flask
+WARNING:main:started
+WARNING:main:Created Main Object
+WARNING:camera:in cam
+WARNING:camera:create photo:  C:\Users\knott\lhslechacks\LECHacks\backend\CameraFeed\2022_11_19_21_37_28
+WARNING:camera:Done
+WARNING:main:Created Camera Object
+WARNING:main:Created FER Object
+WARNING:main:Created Data Object
+WARNING:data:loading Data
+WARNING:main:Loaded Data
+WARNING:root:Ready to accept
+WARNING:camera:a
+WARNING:camera:b
+WARNING:camera:c
+WARNING:camera:d
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+WARNING:root:Closed Server
+WARNING:data:wrote data to csv
+WARNING:root:Created Flask and Request
+WARNING:root:Imported JSON
+WARNING:root:Imported Camera
+WARNING:root:Imported Main
+WARNING:root:Imported Sys
+WARNING:root:high
+WARNING:root:Setup Flask
+WARNING:main:started
+WARNING:main:Created Main Object
+WARNING:camera:in cam
+WARNING:camera:create photo:  C:\Users\knott\lhslechacks\LECHacks\backend\CameraFeed\2022_11_19_21_37_36
+WARNING:camera:Done
+WARNING:main:Created Camera Object
+WARNING:main:Created FER Object
+WARNING:main:Created Data Object
+WARNING:data:loading Data
+WARNING:main:Loaded Data
+WARNING:root:Ready to accept
+WARNING:camera:a
+WARNING:camera:b
+WARNING:camera:c
+WARNING:camera:d
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+WARNING:root:Closed Server
+WARNING:data:wrote data to csv
+WARNING:root:Created Flask and Request
+WARNING:root:Imported JSON
+WARNING:root:Imported Camera
+WARNING:root:Created Flask and Request
+WARNING:root:Imported JSON
+WARNING:root:Imported Camera
+WARNING:root:Imported Main
+WARNING:root:Imported Sys
+WARNING:root:high
+WARNING:root:Setup Flask
+WARNING:main:started
+WARNING:main:Created Main Object
+WARNING:camera:in cam
+WARNING:camera:create photo:  C:\Users\knott\lhslechacks\LECHacks\backend\CameraFeed\2022_11_19_21_40_46
+WARNING:camera:Done
+WARNING:main:Created Camera Object
+WARNING:main:Created FER Object
+WARNING:main:Created Data Object
+WARNING:data:loading Data
+WARNING:main:Loaded Data
+WARNING:root:Ready to accept
+WARNING:camera:a
+WARNING:camera:b
+WARNING:camera:c
+WARNING:camera:d
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+WARNING:root:Closed Server
+WARNING:data:wrote data to csv
+WARNING:root:Created Flask and Request
+WARNING:root:Imported JSON
+WARNING:root:Imported Camera
+WARNING:root:Created Flask and Request
+WARNING:root:Imported JSON
+WARNING:root:Imported Camera
+WARNING:root:Imported Main
+WARNING:root:Imported Sys
+WARNING:root:high
+WARNING:root:Setup Flask
+WARNING:main:started
+WARNING:main:Created Main Object
+WARNING:camera:in cam
+WARNING:camera:create photo:  C:\Users\knott\lhslechacks\LECHacks\backend\CameraFeed\2022_11_19_21_41_34
+WARNING:camera:Done
+WARNING:main:Created Camera Object
+WARNING:main:Created FER Object
+WARNING:main:Created Data Object
+WARNING:data:loading Data
+WARNING:main:Loaded Data
+WARNING:root:Ready to accept
+WARNING:camera:a
+WARNING:camera:b
+WARNING:camera:c
+WARNING:camera:d
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+WARNING:root:Closed Server
+WARNING:data:wrote data to csv
+WARNING:root:Created Flask and Request
+WARNING:root:Imported JSON
+WARNING:root:Imported Camera
+WARNING:root:Created Flask and Request
+WARNING:root:Imported JSON
+WARNING:root:Imported Camera
+WARNING:root:Imported Main
+WARNING:root:Imported Sys
+WARNING:root:high
+WARNING:root:Setup Flask
+WARNING:main:started
+WARNING:main:Created Main Object
+WARNING:camera:in cam
+WARNING:camera:create photo:  C:\Users\knott\lhslechacks\LECHacks\backend\CameraFeed\2022_11_19_21_42_37
+WARNING:camera:Done
+WARNING:main:Created Camera Object
+WARNING:main:Created FER Object
+WARNING:main:Created Data Object
+WARNING:data:loading Data
+WARNING:main:Loaded Data
+WARNING:root:Ready to accept
+WARNING:camera:a
+WARNING:camera:b
+WARNING:camera:c
+WARNING:camera:d
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+WARNING:root:Closed Server
+WARNING:data:wrote data to csv
+WARNING:root:Created Flask and Request
+WARNING:root:Imported JSON
+WARNING:root:Imported Camera
+WARNING:root:Imported Main
+WARNING:root:Imported Sys
+WARNING:root:high
+WARNING:root:Setup Flask
+WARNING:main:started
+WARNING:main:Created Main Object
+WARNING:camera:in cam
+WARNING:camera:create photo:  C:\Users\knott\lhslechacks\LECHacks\backend\CameraFeed\2022_11_19_21_44_39
+WARNING:camera:Done
+WARNING:main:Created Camera Object
+WARNING:main:Created FER Object
+WARNING:main:Created Data Object
+WARNING:data:loading Data
+WARNING:main:Loaded Data
+WARNING:root:Ready to accept
+WARNING:camera:a
+WARNING:camera:b
+WARNING:camera:c
+WARNING:camera:d
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+WARNING:root:Closed Server
+WARNING:data:wrote data to csv
+WARNING:root:Created Flask and Request
+WARNING:root:Imported JSON
+WARNING:root:Imported Camera
+WARNING:root:Imported Main
+WARNING:root:Imported Sys
+WARNING:root:high
+WARNING:root:Setup Flask
+WARNING:main:started
+WARNING:main:Created Main Object
+WARNING:camera:in cam
+WARNING:camera:create photo:  C:\Users\knott\lhslechacks\LECHacks\backend\CameraFeed\2022_11_19_21_46_10
+WARNING:camera:Done
+WARNING:main:Created Camera Object
+WARNING:main:Created FER Object
+WARNING:main:Created Data Object
+WARNING:data:loading Data
+WARNING:main:Loaded Data
+WARNING:root:Ready to accept
+WARNING:camera:a
+WARNING:camera:b
+WARNING:camera:c
+WARNING:camera:d
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+WARNING:root:Closed Server
+WARNING:data:wrote data to csv
+WARNING:root:Created Flask and Request
+WARNING:root:Imported JSON
+WARNING:root:Imported Camera
+WARNING:root:Created Flask and Request
+WARNING:root:Imported JSON
+WARNING:root:Imported Camera
+WARNING:root:Imported Main
+WARNING:root:Imported Sys
+WARNING:root:high
+WARNING:root:Setup Flask
+WARNING:main:started
+WARNING:main:Created Main Object
+WARNING:camera:in cam
+WARNING:camera:create photo:  C:\Users\knott\lhslechacks\LECHacks\backend\CameraFeed\2022_11_19_21_47_37
+WARNING:camera:Done
+WARNING:main:Created Camera Object
+WARNING:main:Created FER Object
+WARNING:main:Created Data Object
+WARNING:data:loading Data
+WARNING:main:Loaded Data
+WARNING:root:Ready to accept
+WARNING:camera:a
+WARNING:camera:b
+WARNING:camera:c
+WARNING:camera:d
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+WARNING:root:Closed Server
+WARNING:data:wrote data to csv
+WARNING:root:Created Flask and Request
+WARNING:root:Imported JSON
+WARNING:root:Imported Camera
+WARNING:root:Imported Main
+WARNING:root:Imported Sys
+WARNING:root:high
+WARNING:root:Setup Flask
+WARNING:main:started
+WARNING:main:Created Main Object
+WARNING:camera:in cam
+WARNING:camera:create photo:  C:\Users\knott\lhslechacks\LECHacks\backend\CameraFeed\2022_11_19_21_48_21
+WARNING:camera:Done
+WARNING:main:Created Camera Object
+WARNING:main:Created FER Object
+WARNING:main:Created Data Object
+WARNING:data:loading Data
+WARNING:main:Loaded Data
+WARNING:root:Ready to accept
+WARNING:camera:a
+WARNING:camera:b
+WARNING:camera:c
+WARNING:camera:d
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+WARNING:root:Closed Server
+WARNING:data:wrote data to csv
+WARNING:root:Created Flask and Request
+WARNING:root:Imported JSON
+WARNING:root:Imported Camera
+WARNING:root:Created Flask and Request
+WARNING:root:Imported JSON
+WARNING:root:Imported Camera
+WARNING:root:Created Flask and Request
+WARNING:root:Imported JSON
+WARNING:root:Imported Camera
+WARNING:root:Imported Main
+WARNING:root:Imported Sys
+WARNING:root:high
+WARNING:root:Setup Flask
+WARNING:main:started
+WARNING:main:Created Main Object
+WARNING:camera:in cam
+WARNING:camera:create photo:  C:\Users\knott\lhslechacks\LECHacks\backend\CameraFeed\2022_11_19_21_52_27
+WARNING:camera:Done
+WARNING:main:Created Camera Object
+WARNING:main:Created FER Object
+WARNING:main:Created Data Object
+WARNING:data:loading Data
+WARNING:main:Loaded Data
+WARNING:root:Ready to accept
+WARNING:camera:a
+WARNING:camera:b
+WARNING:camera:c
+WARNING:camera:d
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+WARNING:root:Closed Server
+WARNING:data:wrote data to csv
+WARNING:root:Created Flask and Request
+WARNING:root:Imported JSON
+WARNING:root:Imported Camera
+WARNING:root:Imported Main
+WARNING:root:Imported Sys
+WARNING:root:high
+WARNING:root:Setup Flask
+WARNING:main:started
+WARNING:main:Created Main Object
+WARNING:camera:in cam
+WARNING:camera:create photo:  C:\Users\knott\lhslechacks\LECHacks\backend\CameraFeed\2022_11_19_22_04_00
+WARNING:camera:Done
+WARNING:main:Created Camera Object
+WARNING:main:Created FER Object
+WARNING:main:Created Data Object
+WARNING:data:loading Data
+WARNING:main:Loaded Data
+WARNING:root:Ready to accept
+WARNING:camera:a
+WARNING:camera:b
+WARNING:camera:c
+WARNING:camera:d
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:04:01] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:04:01] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:04:02] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:04:02] "POST /isangry HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:04:02] "POST /takeimage HTTP/1.1" 200 -
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:04:02] "POST /isangry HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:04:03] "POST /takeimage HTTP/1.1" 200 -
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:04:03] "POST /isangry HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:04:03] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:04:03] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:04:04] "POST /takeimage HTTP/1.1" 200 -
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:04:04] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:04:04] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:04:04] "POST /isangry HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:04:05] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:04:05] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:04:05] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:04:05] "POST /isangry HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:04:06] "POST /takeimage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:04:06] "POST /isangry HTTP/1.1" 200 -
+WARNING:root:END SESSION
+WARNING:data:uploaded session data to csv
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:04:06] "POST /endsession HTTP/1.1" 200 -
+WARNING:root:Closed Server
+WARNING:data:wrote data to csv
+WARNING:root:Created Flask and Request
+WARNING:root:Imported JSON
+WARNING:root:Imported Camera
+WARNING:root:Imported Main
+WARNING:root:Imported Sys
+WARNING:root:high
+WARNING:root:Setup Flask
+WARNING:main:started
+WARNING:main:Created Main Object
+WARNING:camera:in cam
+WARNING:camera:create photo:  C:\Users\knott\lhslechacks\LECHacks\backend\CameraFeed\2022_11_19_22_20_55
+WARNING:camera:Done
+WARNING:main:Created Camera Object
+WARNING:main:Created FER Object
+WARNING:main:Created Data Object
+WARNING:data:loading Data
+WARNING:main:Loaded Data
+WARNING:root:Ready to accept
+WARNING:camera:a
+WARNING:camera:b
+WARNING:camera:c
+WARNING:camera:d
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:20:56] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:20:56] "POST /isangry HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:20:57] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:20:57] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:20:57] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:20:57] "POST /takeimage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:20:58] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:20:58] "POST /isangry HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:20:58] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:20:58] "POST /takeimage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:20:59] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:20:59] "POST /isangry HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:20:59] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:20:59] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:21:00] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:21:00] "POST /takeimage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:21:00] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:21:00] "POST /isangry HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:21:01] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:21:01] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:21:01] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:21:01] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:21:02] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:21:02] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:21:02] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:21:02] "POST /takeimage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:21:03] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:21:03] "POST /isangry HTTP/1.1" 200 -
+WARNING:root:Closed Server
+WARNING:data:wrote data to csv
+WARNING:root:Created Flask and Request
+WARNING:root:Imported JSON
+WARNING:root:Imported Camera
+WARNING:root:Imported Main
+WARNING:root:Imported Sys
+WARNING:root:high
+WARNING:root:Setup Flask
+WARNING:main:started
+WARNING:main:Created Main Object
+WARNING:camera:in cam
+WARNING:camera:create photo:  C:\Users\knott\lhslechacks\LECHacks\CameraFeed/2022_11_19_22_24_23
+WARNING:camera:Done
+WARNING:main:Created Camera Object
+WARNING:main:Created FER Object
+WARNING:main:Created Data Object
+WARNING:data:loading Data
+WARNING:main:Loaded Data
+WARNING:root:Ready to accept
+WARNING:camera:a
+WARNING:camera:b
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:28] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:28] "POST /isangry HTTP/1.1" 200 -
+WARNING:camera:c
+WARNING:camera:d
+WARNING:camera:e
+WARNING:camera:f
+WARNING:main:Captured a photo at: C:\Users\knott\lhslechacks\LECHacks\CameraFeed/2022_11_19_22_24_23/22:24:28.jpg
+WARNING:main:Photo taken at time: 1668925468.8172615
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:29] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:29] "POST /takeimage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:29] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:29] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:30] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:30] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:30] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:30] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:31] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:31] "POST /isangry HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:31] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:31] "POST /takeimage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:32] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:32] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:32] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:32] "POST /isangry HTTP/1.1" 200 -
+WARNING:root:END SESSION
+WARNING:data:uploaded session data to csv
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:32] "POST /endsession HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:34] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:34] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:34] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:34] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:35] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:35] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:35] "POST /takeimage HTTP/1.1" 200 -
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:35] "POST /isangry HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:36] "POST /takeimage HTTP/1.1" 200 -
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:36] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:36] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:36] "POST /isangry HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:37] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:37] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:37] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:37] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:38] "POST /takeimage HTTP/1.1" 200 -
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:38] "POST /isangry HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:38] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:38] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:39] "POST /takeimage HTTP/1.1" 200 -
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:39] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:39] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:39] "POST /isangry HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:40] "POST /takeimage HTTP/1.1" 200 -
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:40] "POST /isangry HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:40] "POST /takeimage HTTP/1.1" 200 -
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:40] "POST /isangry HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:41] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:41] "POST /isangry HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:41] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:41] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:42] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:24:42] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:Created Flask and Request
+WARNING:root:Imported JSON
+WARNING:root:Imported Camera
+WARNING:root:Imported Main
+WARNING:root:Imported Sys
+WARNING:root:high
+WARNING:root:Setup Flask
+WARNING:main:started
+WARNING:main:Created Main Object
+WARNING:camera:in cam
+WARNING:camera:create photo:  C:\Users\knott\lhslechacks\LECHacks\CameraFeed\2022_11_19_22_28_35
+WARNING:camera:Done
+WARNING:main:Created Camera Object
+WARNING:main:Created FER Object
+WARNING:main:Created Data Object
+WARNING:data:loading Data
+WARNING:main:Loaded Data
+WARNING:root:Ready to accept
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:40] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:40] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:40] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:40] "POST /isangry HTTP/1.1" 200 -
+WARNING:main:Captured a photo at: C:\Users\knott\lhslechacks\LECHacks\CameraFeed\2022_11_19_22_28_35\22:28:39.jpg
+WARNING:main:Photo taken at time: 1668925720.510433
+WARNING:root:CHECKING IF ANGRY
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:41] "POST /takeimage HTTP/1.1" 200 -
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:41] "POST /isangry HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:41] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:41] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:42] "POST /takeimage HTTP/1.1" 200 -
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:42] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:42] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:42] "POST /isangry HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:43] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:43] "POST /isangry HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:43] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:43] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:44] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:44] "POST /isangry HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:44] "POST /takeimage HTTP/1.1" 200 -
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:44] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:45] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:45] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:45] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:45] "POST /isangry HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:46] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:46] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:46] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:46] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:47] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:47] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:47] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:47] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:48] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:48] "POST /takeimage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:48] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:48] "POST /isangry HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:49] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:49] "POST /isangry HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:49] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:49] "POST /isangry HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:50] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:50] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:50] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:50] "POST /isangry HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:51] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:51] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:51] "POST /takeimage HTTP/1.1" 200 -
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:51] "POST /isangry HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:52] "POST /takeimage HTTP/1.1" 200 -
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:52] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:52] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:52] "POST /isangry HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:53] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:53] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:53] "POST /takeimage HTTP/1.1" 200 -
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:53] "POST /isangry HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:54] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:54] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:54] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:54] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:55] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:55] "POST /takeimage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:55] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:55] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:56] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:56] "POST /isangry HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:56] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:56] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:57] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:57] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:END SESSION
+WARNING:data:uploaded session data to csv
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:57] "POST /endsession HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:58] "POST /takeimage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:58] "POST /isangry HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:58] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:58] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:59] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:59] "POST /takeimage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:59] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:59] "POST /isangry HTTP/1.1" 200 -
+WARNING:root:END SESSION
+WARNING:data:uploaded session data to csv
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:28:59] "POST /endsession HTTP/1.1" 200 -
+WARNING:root:Closed Server
+WARNING:data:wrote data to csv
+WARNING:root:Created Flask and Request
+WARNING:root:Imported JSON
+WARNING:root:Imported Camera
+WARNING:root:Imported Main
+WARNING:root:Imported Sys
+WARNING:root:high
+WARNING:root:Setup Flask
+WARNING:main:started
+WARNING:main:Created Main Object
+WARNING:camera:in cam
+WARNING:camera:create photo:  C:\Users\knott\lhslechacks\LECHacks\CameraFeed\2022_11_19_22_29_10
+WARNING:camera:Done
+WARNING:main:Created Camera Object
+WARNING:main:Created FER Object
+WARNING:main:Created Data Object
+WARNING:data:loading Data
+WARNING:main:Loaded Data
+WARNING:root:Ready to accept
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+WARNING:root:CHECKING IF ANGRY
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:29:20] "POST /takeimage HTTP/1.1" 200 -
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:29:20] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:29:21] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:29:21] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:29:21] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:29:21] "POST /isangry HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:29:22] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:29:22] "POST /isangry HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:29:22] "POST /isangry HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:29:22] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:29:23] "POST /takeimage HTTP/1.1" 200 -
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:29:23] "POST /isangry HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:29:23] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:29:23] "POST /isangry HTTP/1.1" 200 -
+WARNING:root:END SESSION
+WARNING:data:uploaded session data to csv
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:29:23] "POST /endsession HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:29:24] "POST /takeimage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:29:24] "POST /isangry HTTP/1.1" 200 -
+WARNING:root:END SESSION
+WARNING:data:uploaded session data to csv
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 22:29:24] "POST /endsession HTTP/1.1" 200 -
+WARNING:root:Closed Server
+WARNING:data:wrote data to csv

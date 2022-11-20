@@ -17,11 +17,15 @@
             function tpHELP(){
                 ipcRenderer.send("open:TPHELP");
             }
+            function QUIT(){           
+                ipcRenderer.send("app:quit");
+            }
         </script>
     </head>
     <!-- Main Body -->
     <body>
         <!-- Title -->
+        <div style="float:right;background-color:#eb5130;padding:5px;margin: 10px;" onclick="QUIT()">X</div>
         <h1>History</h1>
         <!-- Graph Image -->
         <div class="conta">
@@ -39,7 +43,7 @@
                 <img src = "./Images/summary.png" style = "padding-right: 18px; padding-left: 10px;"/>
                 <span class ="buttonText">Summary</span>
             </button>
-            <button class="whiteMenuButton" id = "historyButton" onclick = "openSettings()">
+            <button class="whiteMenuButton" id = "historyButton" onclick = "">
                 <img src = "./Images/history.png" style = "padding-right: 18px; padding-left: 10px;"/>
                 <span class ="buttonText">History</span>
             </button>

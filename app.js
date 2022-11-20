@@ -14,6 +14,8 @@ var recording = false;
 // Listen for the app to ready:
 app.on('ready', function () {
     MainWindow = new BrowserWindow({
+        autoHideMenuBar: true,
+        frame: false,
         webPreferences: {nodeIntegration: true, contextIsolation: false, enableRemoteModule: true},
         width:1600,
         height: 900});
@@ -24,6 +26,8 @@ app.on('ready', function () {
         
         
     }));
+
+    MainWindow.removeMenu()
 
     MainWindow.on('closed', function(){
         app.quit(); 
@@ -280,6 +284,8 @@ ipcMain.on("recorder:change", function(e){
         endSession();
     }
 });
+
+ipcMain.on('app:quit', () => { app.quit() })
 
 //listener to start summary maker
 ipcMain.on("summary:emotions", function(e, emotion1, emotion2, emotion3, comparing){

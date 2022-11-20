@@ -86,11 +86,16 @@
 
             })
 
+            function QUIT(){           
+                ipcRenderer.send("app:quit");
+            }
+
         </script>
     </head>
     <!-- Main Body -->
     <body>
         <!-- Title -->
+        <div style="float:right;background-color:#eb5130;padding:5px;margin: 10px;" onclick="QUIT()">X</div>
         <h1>Summary</h1>
         
         <div class="show">
@@ -331,7 +336,7 @@
                 <img src = "./Images/home.png" style = "padding-right: 18px; padding-left: 10px;"/>
                 <span class ="buttonText">Home</span>
             </button>
-            <button class="whiteMenuButton" id = "summaryButton" onclick = "openSettings()">
+            <button class="whiteMenuButton" id = "summaryButton" onclick = "">
                 <img src = "./Images/summary.png" style = "padding-right: 18px; padding-left: 10px;"/>
                 <span class ="buttonText">Summary</span>
             </button>

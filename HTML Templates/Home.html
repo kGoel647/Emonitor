@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <!-- Intialize Style Sheets -->}
+        <!-- Intialize Style Sheets -->
         <link href="Styles/home.css" rel="stylesheet">
         <link href="Styles/utility.css" rel = "stylesheet">    
         
@@ -33,6 +33,10 @@
             function openSettings(){           
                 ipcRenderer.send("open:settings");
             }
+            function QUIT(){           
+                ipcRenderer.send("app:quit");
+            }
+
 
             //Event Listener listening for live data update 
             ipcRenderer.on("data:update", function(e, happy, angry, surprise, sad, fear, disgust){
@@ -90,8 +94,8 @@
         <!-- Title-->
         <div class="side" id="menuButtonGrid">            
             <button class="whiteMenuButton" id = "homeButton" onclick ="openSettings()">
-                <img src = "./Images/home.png" style = "padding-right: 10px; padding-left: 10px;"/>
-                <span class ="buttonText">Home</span>
+                <img src = "./Images/settings.png" style = "padding-right: 10px; padding-left: 10px;"/>
+                <span class ="buttonText">Settings</span>
             </button>
             <button class="blackMenuButton" id = "summaryButton" onclick = "window.location.href='Summary.html'">
                 <img src = "./Images/summary.png" style = "padding-right: 10px; padding-left: 10px;"/>
@@ -102,6 +106,7 @@
                 <span class ="buttonText">History</span>
             </button>
         </div>
+        <div style="float:right;background-color:#eb5130;padding:5px;margin: 10px;" onclick="QUIT()">X</div>
         <div class="nav">
             <h1>The AppThatRecordsYou</h1>
         </div>

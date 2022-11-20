@@ -33,7 +33,7 @@ class Main:
 
         self.data = Data()
         logger.warning("Created Data Object")
-        self.data.loadData("backend\data.csv")
+        self.data.loadData("data.csv")
         logger.warning("Loaded Data")
         self.recording=False
 
