@@ -1,45 +1,45 @@
 import logging
 from time import sleep
-logger = logging.getLogger(__name__)
+logging.basicConfig(filename="backend/LOGS/log.log", level=logging.WARNING)
 from flask import Flask, request
-logger.warning("Created Flask and Request")
+logging.warning("Created Flask and Request")
 import json
-logger.warning("Imported JSON") 
+logging.warning("Imported JSON") 
 from camera import Camera
-logger.warning("Imported Camera") 
+logging.warning("Imported Camera") 
 from main import Main
-logger.warning("Imported Main") 
+logging.warning("Imported Main") 
 import sys
-logger.warning("Imported Sys") 
+logging.warning("Imported Sys") 
 from threading import Thread
-logger.warning
+logging.warning
 from data import Data
-logger.warning("high")
+logging.warning("high")
 # Setup flask server
 app = Flask(__name__) 
-logger.warning("Setup Flask") 
+logging.warning("Setup Flask") 
 m = Main()
 
 #Checks if user is angry
 @app.route('/isangry', methods = ['POST']) 
 def isAngry():
-    logger.warning("CHECKING IF ANGRY")
+    logging.warning("CHECKING IF ANGRY")
     angry = m.isAngry()
-    logger.warning(int(angry))
+    logging.warning(int(angry))
     return json.dumps({"isangry": angry})
 
 #Collects client requests and finds the right summary
 @app.route('/summarize', methods = ['POST']) 
 def returnSummary():
-    logger.warning("RETURNING SUMMARY")
+    logging.warning("RETURNING SUMMARY")
     data = request.get_json() 
     emotion1 = data['emotion1']
     emotion2 = data['emotion2']
     emotion3 = data['emotion3']
     comparing = data['comparing']
-    logger.warning(data)
+    logging.warning(data)
     if comparing == "Applications":
-        logger.warning("Application Emotion Retreiving")
+        logging.warning("Application Emotion Retreiving")
         return json.dumps({"result": m.summarizeApps(emotion1, emotion2, emotion3)})
     else:
         return json.dumps({"result": m.summarizeTimes(emotion1, emotion2, emotion3)})
@@ -47,19 +47,21 @@ def returnSummary():
 #Ends the current session
 @app.route('/endsession', methods = ['POST']) 
 def endSession():
-    logger.warning("END SESSION")
+    logging.warning("END SESSION")
+    m.recording=False
     m.endSession()
     return json.dumps([])
 
 #Takes a new image
 @app.route('/takeimage', methods = ['POST']) 
 def takeImage():
+    m.recording=True
     return json.dumps({"emotions": m.data.getEmotions()})
 
 #Shuts down the server
 @app.route('/kill', methods = ['POST']) 
 def kill():
-    logger.warning("Closed Server")
+    logging.warning("Closed Server")
     m.writeData()
     quit()
 
@@ -72,7 +74,9 @@ def captureImage():
 
 #Creates a proper application
 if __name__ == "__main__": 
-    logger.warning("Ready to accept")
+    logging.warning("Ready to accept")
+    print("waofh")
     new_thread = Thread(target = captureImage)
+    print("hu")
     new_thread.start()
     app.run(port=5000)

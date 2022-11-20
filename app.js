@@ -42,7 +42,10 @@ app.on('ready', function () {
     childPython.on("close", (code) => {
         console.log(`exited on code: ${code}`)
     })
+    console.log("hi"
+    )
     startLoop()
+    console.log("hi")
 });
 
 //Start Loop For Recording
@@ -50,6 +53,7 @@ function startLoop(){
     setTimeout(() => {
         if(recording){
             const Data = record();
+            console.log("recording")
             isAngry()
         }
         startLoop();
@@ -111,7 +115,7 @@ async function isAngry() {
 
 //record an image
 async function record() {
-    console.log('recording');
+    // console.log('recording');
 	var data = {
         "photoSize": 1
 	}
@@ -127,7 +131,9 @@ async function record() {
 	var sendrequest = await request(options)
 		.then(function (parsedBody) {
 			let result;
+            console.log(parsedBody);
 			result = parsedBody['emotions'];
+            console.log(result);
             MainWindow.webContents.send("data:update", result[5], result[2], result[7], result[6], result[4], result[3]);
             return parsedBody['emotions'];
 		})

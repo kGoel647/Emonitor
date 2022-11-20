@@ -40,6 +40,8 @@ class Main:
         self.data = Data()
         logger.warning("Created Data Object")
         self.data.loadData("backend/data.csv")
+        logger.warning("Loaded Data")
+        self.recording=False
 
     #Checks if user is angry
     def isAngry(self):
@@ -62,8 +64,8 @@ class Main:
     def analyze(self):
         data = []
         photo = self.cam.takePhoto()
-        logger.debug("Captured a photo at: {}".format(photo))
-        logger.debug("Photo taken at time: " + str(time.time()))
+        logger.warning("Captured a photo at: {}".format(photo))
+        logger.warning("Photo taken at time: " + str(time.time()))
         data = self.fer.analyzeImage(photo)
         if not data:
             logger.warning("Empty Data List Being Sent")
@@ -76,15 +78,15 @@ class Main:
             data[emotions[i]] = int(round(data[emotions[i]] * 1/max(0.01,(sum(dataLst))), 2)*100)/100
 
         data.pop("neutral")
-        logger.debug("Analyzed data: {}".format(str(data)))
-        self.data.generateGraph()
-        self.data.addRow(data)
-        self.data.writeData("backend/data.csv")
+        # self.data.generateGraph()
+        if (self.recording):
+            self.data.addRow(data)
+            self.data.writeData("backend/data.csv")
         return data
 
     #Writes data to csv
     def writeData(self):
-        self.data.writeData("backend/data.csv")
+        self.data.writeData("data.csv")
 
 #Testing main function
 if __name__ == "__main__":

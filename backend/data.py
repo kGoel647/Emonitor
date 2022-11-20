@@ -25,6 +25,7 @@ class Data:
 
     #Loads data from a filename
     def loadData(self, filename):
+        logger.warning("loading Data")
         self.df = pd.read_csv(filename)
         self.df = self.df.iloc[: , 1:]
     
@@ -118,7 +119,7 @@ class Data:
                
     #Ends the current session and resets the pandas dataframe
     def endSession(self):
-        self.sessionDF.to_csv("sessionData.csv")
+        self.sessionDF.to_csv("backend/sessionData.csv")
         logger.warning("uploaded session data to csv")
         self.sessionDF = pd.DataFrame(columns=["time", "application", "angry", "disgust", "fear", "happy", "sad", "surprise"])
 
@@ -151,7 +152,7 @@ class Data:
         for i, row in self.df.tail(3).iterrows():
             if row['angry'] > 0.9:
                 return True
-            if row['angry'] < 0.5:
+            if row['angry'] < 0.5: 
                 return False
         return True
 
@@ -163,7 +164,6 @@ class Data:
         logger.debug("Current String: {}".format(dt_string))
         data.insert(0, focusedApplication.get_active_window())
         data.insert(0, dt_string)
-        logger.warning(data)
         self.df.loc[len(self.df.index)] = data
         self.sessionDF.loc[len(self.sessionDF.index)] = data
 
@@ -176,4 +176,3 @@ class Data:
 if __name__ == "__main__":
     d = Data()
     d.loadData("data.csv")
-    d.summarizeTimes("angry", "sad", "happy")

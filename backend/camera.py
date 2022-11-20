@@ -13,6 +13,7 @@ class Camera:
 
     #Init Function
     def __init__ (self):
+        logger.warning("in cam")
         self.now = datetime.now()
         self.dt_string = self.now.strftime("%Y_%m_%d_%H_%M_%S")
 
@@ -27,7 +28,10 @@ class Camera:
         self.directory = "backend/CameraFeed/{}".format(self.dt_string)
         parent_dir = os.path.abspath(os.path.join(os.getcwd(), os.pardir))
         path = os.path.join(parent_dir, self.directory)
-        os.mkdir(self.directory)
+        logger.warning("create photo:  "+path)
+        os.makedirs(path)
+        self.directory=path
+        logger.warning("Done")
 
     #Takes Photo from webcam and returns directory of image
     def takePhoto(self):
@@ -40,6 +44,7 @@ class Camera:
             picTime = self.now.strftime("%H:%M:%S")
         # saving image in local storage
         cv.imwrite(self.directory + "/{}.jpg".format(picTime), image)
+        logger.warning("aweofihawepoufihawpeoufhpwaieuhfpawiuefhawpeiufhawpiefuh")
         return self.directory + "/{}.jpg".format(picTime)
     
 
