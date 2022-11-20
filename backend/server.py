@@ -14,7 +14,6 @@ logging.warning("Imported Sys")
 from threading import Thread
 logging.warning
 from data import Data
-logging.warning("high")
 # Setup flask server
 app = Flask(__name__) 
 logging.warning("Setup Flask") 
@@ -37,7 +36,7 @@ def returnSummary():
     emotion2 = data['emotion2']
     emotion3 = data['emotion3']
     comparing = data['comparing']
-    logging.warning(data)
+    logging.warning("return Summary: "+str(data))
     if comparing == "Applications":
         logging.warning("Application Emotion Retreiving")
         return json.dumps({"result": m.summarizeApps(emotion1, emotion2, emotion3)})

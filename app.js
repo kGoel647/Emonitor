@@ -163,6 +163,7 @@ async function summarize(emotion1, emotion2, emotion3, comparing){
 		.then(function (parsedBody) {
 			let result;
             appEmo = parsedBody['result'];
+            console.log(appEmo)
             var keys = Object.keys(appEmo);
             var values = Object.values(appEmo);
             var topSixKeys = keys.slice(Math.max(-5, -keys.length))

@@ -3,22 +3,11 @@
 import time, logging
 import logging.config
 logger = logging.getLogger(__name__)
-logger.warning('YOU')
 from camera import Camera
-
-logger.warning('YOU')
 from facialEmotionRecognition import EmotionalAnalyzer 
-
-logger.warning('YOU')
 from data import Data
-
-logger.warning('YOU')
 import pandas as pd
-
-logger.warning('YOU')
 from datetime import datetime
-
-logger.warning("OKAY")
 
 #Main Function that controls the rest of the backend server
 class Main:
@@ -64,11 +53,11 @@ class Main:
     def analyze(self):
         data = []
         photo = self.cam.takePhoto()
-        logger.warning("Captured a photo at: {}".format(photo))
-        logger.warning("Photo taken at time: " + str(time.time()))
+        logger.debug("Captured a photo at: {}".format(photo))
+        logger.debug("Photo taken at time: " + str(time.time()))
         data = self.fer.analyzeImage(photo)
         if not data:
-            logger.warning("Empty Data List Being Sent")
+            logger.debug("Empty Data List Being Sent")
             return data
         data = data[0]['emotions']
         dataLst = list(data.values())

@@ -47,7 +47,7 @@ class Data:
 
     #Takes data and summarizes the data by time. Requires 3 emotions to analyze including none
     def summarizeTimes(self, emotion1, emotion2, emotion3):
-        data = pd.read_csv("sessionData.csv")
+        data = pd.read_csv("backend/sessionData.csv")
         timeEmotion = {}
         dataSplits = [data.iloc[int(len(data.index)/5) * i:int(len(data.index)/5) * (i+1)] for i in range(5)]
         totalEQ = 0
@@ -79,7 +79,7 @@ class Data:
 
     #Summarizes data by application. Requires three different emotions
     def summarizeApps(self, emotion1, emotion2, emotion3):
-        data = pd.read_csv("sessionData.csv")
+        data = pd.read_csv("backend/sessionData.csv")
         appsFocused = list(data['application'])
         appEmotion = {}
         appTimes = {}
