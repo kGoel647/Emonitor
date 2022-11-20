@@ -1,16 +1,54 @@
-h1{
-    color:var(--text_color);
-    font-size: 128px;
-    text-align: center;
-    position:absolute;
-    left: 688px;
-    top: -46px;
+body {
+    background-color: #2f2f2f;
 }
 
+.nav h1 {
+    color:var(--text_color);
+    font-size: 9vh;
+    text-align: center;
+}
+
+.nav {
+    margin: 0 auto;
+    margin-left: 5vw;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+    margin-left: 10vw;
+}
+
+.ind {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 3vh;
+}
+
+.ind img {
+    margin-right: 3vw;
+}
 
 .graphBar{
-    height: 88px;
+    height: 7vh;
     transition: width 0.5s 0s;
+}
+
+.side {
+    display: flex;
+    flex-direction: column;
+    background-color: #0998eb;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 1vw;
+    height: 32vw;
+    padding: 10px;
+    border-radius: 20%;
 }
 
 #emojiGrid{
@@ -34,23 +72,20 @@ h1{
 }
 
 #recordButton{
-    width: 676px;
-    height:128px;
-    border-radius: 30px;
+    width: 18vw;
+    height: 14vh; 
+    border-radius: 10px;
     background-image: var(--secondary-color);
-    font-size: 64px;
+    font-size: 5vh;
     font-family: "Roboto Bold";
-    border: none;
-    position: absolute;
-    left: 622px;
-    top: 871px;
+    margin-left: 45vw;
 }
 
 #recordButton:hover {
-    background: white;
+    background: rgb(109, 244, 251);
     border:solid;
     border-width: 16px;
-    color: #01e1e1;
+    color: #ffffff;
     border-color: #00f0f0;
 }
 

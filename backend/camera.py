@@ -25,7 +25,7 @@ class Camera:
         self.cam = cv.VideoCapture(cam_port)
 
         #Creating Image Folder
-        self.directory = "backend/CameraFeed/{}".format(self.dt_string)
+        self.directory = "backend\CameraFeed\{}".format(self.dt_string)
         parent_dir = os.path.abspath(os.path.join(os.getcwd(), os.pardir))
         path = os.path.join(parent_dir, self.directory)
         logger.warning("create photo:  "+path)
@@ -35,16 +35,23 @@ class Camera:
 
     #Takes Photo from webcam and returns directory of image
     def takePhoto(self):
+        logger.warning("a")
         self.now = datetime.now()
+        logger.warning("b")
+
         result, image = self.cam.read()
+        logger.warning("c")
         picTime = self.now.strftime("%H:%M:%S")
+        logger.warning("d")
         while not result:
+            cv.imwrite(self.directory + "\{}.jpg".format(picTime), image)
             self.now = datetime.now()
             result, image = self.cam.read()
             picTime = self.now.strftime("%H:%M:%S")
         # saving image in local storage
-        cv.imwrite(self.directory + "/{}.jpg".format(picTime), image)
-        logger.warning("aweofihawepoufihawpeoufhpwaieuhfpawiuefhawpeiufhawpiefuh")
-        return self.directory + "/{}.jpg".format(picTime)
+        logger.warning("e")
+        cv.imwrite(self.directory + "\{}.jpg".format(picTime), image)
+        logger.warning("f")
+        return self.directory + "\{}.jpg".format(picTime)
     
 

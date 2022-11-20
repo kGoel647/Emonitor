@@ -3,22 +3,16 @@
 import time, logging
 import logging.config
 logger = logging.getLogger(__name__)
-logger.warning('YOU')
 from camera import Camera
 
-logger.warning('YOU')
 from facialEmotionRecognition import EmotionalAnalyzer 
 
-logger.warning('YOU')
 from data import Data
 
-logger.warning('YOU')
 import pandas as pd
 
-logger.warning('YOU')
 from datetime import datetime
 
-logger.warning("OKAY")
 
 #Main Function that controls the rest of the backend server
 class Main:
@@ -39,7 +33,7 @@ class Main:
 
         self.data = Data()
         logger.warning("Created Data Object")
-        self.data.loadData("backend/data.csv")
+        self.data.loadData("backend\data.csv")
         logger.warning("Loaded Data")
         self.recording=False
 
@@ -81,7 +75,7 @@ class Main:
         # self.data.generateGraph()
         if (self.recording):
             self.data.addRow(data)
-            self.data.writeData("backend/data.csv")
+            self.data.writeData("backend\data.csv")
         return data
 
     #Writes data to csv
@@ -90,9 +84,7 @@ class Main:
 
 #Testing main function
 if __name__ == "__main__":
-    logger.warning("OKAY")
     logger = logging.getLogger(__name__)
-    logger.warning("hui")
     m = Main()
     m.analyze()
 

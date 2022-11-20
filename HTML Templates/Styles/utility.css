@@ -1,11 +1,15 @@
 :root{
-    --text_color:black;
-    --background-color: linear-gradient(231.84deg, rgba(24, 244, 192, 0.65) 5.72%, rgba(71, 209, 5, 0.46) 118.97%);
+    --text_color:rgb(255, 255, 255);
+    /* --background-color: linear-gradient(231.84deg, rgba(24, 244, 192, 0.65) 5.72%, rgba(71, 209, 5, 0.46) 118.97%); */
+    --background-color: #303030;
     --secondary-color: linear-gradient(264.79deg, #1CB6E7 -6.6%, #4DDEEF 102.09%);
 }
 
 *{
     color:var(--text_color); 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -17,7 +21,7 @@ h1{
 }
 
 body{
-    background-image: var(--background-color);
+    background-color: var(--background-color);
 }
 
 p{
@@ -27,9 +31,9 @@ p{
 
 .whiteMenuButton{
     background-color: white;
-    max-width: 100px;
-    height: 100px;
-    border-radius: 50px;
+    max-width: 90px;
+    height: 90px;
+    border-radius: 45px;
     border-color: transparent;
     display:inline-flex;
     align-items: center;
@@ -56,9 +60,9 @@ p{
 
 .blackMenuButton{
     background-color: black;
-    max-width: 100px;
-    height: 100px;
-    border-radius: 50px;
+    max-width: 90px;
+    height: 90px;
+    border-radius: 45px;
     border-color: transparent;
     display: inline-flex;
     align-items: center;

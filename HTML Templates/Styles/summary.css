@@ -1,12 +1,59 @@
 h1{
     color:var(--text_color);
-    font-size: 96px;
+    font-size: 9vh;
     text-align: center;
-    position:absolute;
-    left: 771px;
-    top: -46px;
+    margin: 5vh auto;
+    margin-left: 5vw;
+}
+/* 
+body {
+    background-color: #
+} */
+
+.table {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12vw;
+    margin-top: 10vh;
 }
 
+.show {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+
+.pls {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 7vw;
+}
+
+.pls > * {
+    margin-right: 3vw;
+}
+
+.show .emojiDropDown {
+    margin-right: 10vw;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.item p {
+    padding: 3vh;
+    border-bottom:3px solid black;
+    border-right: 3px solid black;
+}
+
+.item .graphBar {
+    margin-left: 3vw;
+}
 
 input[type=checkbox]{
     height: 0;
@@ -116,6 +163,7 @@ input[type=checkbox]{
     background-color: black;
 }
 
+
 #graphTextLine{
     width: 4px;
     height: 549px;
@@ -151,8 +199,8 @@ input[type=checkbox]{
 }
 
 .emojiDropDown{
-    width:128px;
-    height: 88px;
+    width:5vw;
+    height: 10vh;
     background-color: rgb(158, 157, 157);
     position:absolute;
     border-radius: 12px;
