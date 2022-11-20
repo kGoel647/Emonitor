@@ -973,3 +973,57 @@ INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a
 INFO:werkzeug:[33mPress CTRL+C to quit[0m
 WARNING:root:Closed Server
 WARNING:data:wrote data to csv
+WARNING:root:Created Flask and Request
+WARNING:root:Imported JSON
+WARNING:root:Imported Camera
+WARNING:root:Imported Main
+WARNING:root:Imported Sys
+WARNING:root:high
+WARNING:root:Setup Flask
+WARNING:main:started
+WARNING:main:Created Main Object
+WARNING:camera:in cam
+WARNING:camera:create photo:  C:\Users\knott\lhslechacks\LECHacks\backend\CameraFeed\2022_11_19_18_11_06
+WARNING:camera:Done
+WARNING:main:Created Camera Object
+WARNING:main:Created FER Object
+WARNING:main:Created Data Object
+WARNING:data:loading Data
+WARNING:main:Loaded Data
+WARNING:root:Ready to accept
+WARNING:camera:a
+WARNING:camera:b
+WARNING:camera:c
+WARNING:camera:d
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+WARNING:root:Closed Server
+WARNING:data:wrote data to csv
+WARNING:root:Created Flask and Request
+WARNING:root:Imported JSON
+WARNING:root:Imported Camera
+WARNING:root:Imported Main
+WARNING:root:Imported Sys
+WARNING:root:high
+WARNING:root:Setup Flask
+WARNING:main:started
+WARNING:main:Created Main Object
+WARNING:camera:in cam
+WARNING:camera:create photo:  C:\Users\knott\lhslechacks\LECHacks\backend\CameraFeed\2022_11_19_18_12_14
+WARNING:camera:Done
+WARNING:main:Created Camera Object
+WARNING:main:Created FER Object
+WARNING:main:Created Data Object
+WARNING:data:loading Data
+WARNING:main:Loaded Data
+WARNING:root:Ready to accept
+WARNING:camera:a
+WARNING:camera:b
+WARNING:camera:c
+WARNING:camera:d
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+WARNING:root:Closed Server
+WARNING:data:wrote data to csv
