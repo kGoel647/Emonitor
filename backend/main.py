@@ -76,6 +76,7 @@ class Main:
             data[emotions[i]] = int(round(data[emotions[i]] * 1/max(0.01,(sum(dataLst))), 2)*100)/100
 
         data.pop("neutral")
+        logger.warning("doneAnalyze")
         # self.data.generateGraph()
         if (self.recording):
             self.data.addRow(data)

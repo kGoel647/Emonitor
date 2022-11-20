@@ -42,7 +42,7 @@ class Camera:
         picTime = self.now.strftime("%H:%M:%S")
         while not result:
             self.now = datetime.now()
-            result, image = self.cam.read()
+            result, image = self.cam.read(0)
             picTime = self.now.strftime("%H:%M:%S")
         # saving image in local storage
         cv.imwrite(self.directory + "/{}.jpg".format(picTime), image)

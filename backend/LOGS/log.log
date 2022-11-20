@@ -413,6 +413,11 @@ WARNING:main:Loaded Data
 WARNING:root:Ready to accept
 INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
 WARNING:root:Closed Server
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 23:08:54] "POST /takeimage HTTP/1.1" 200 -
+WARNING:root:CHECKING IF ANGRY
+WARNING:main:False
+WARNING:root:0
+INFO:werkzeug:127.0.0.1 - - [19/Nov/2022 23:08:54] "POST /isangry HTTP/1.1" 200 -
 WARNING:data:wrote data to csv
 WARNING:root:Created Flask and Request
 WARNING:root:Imported JSON
