@@ -175,4 +175,4 @@ class Data:
 #Testing as main to summarize times
 if __name__ == "__main__":
     d = Data()
-    d.loadData("data.csv")
+    d.loadData("backend/data.csv")

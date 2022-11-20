@@ -25,7 +25,7 @@ class Camera:
         self.cam = cv.VideoCapture(cam_port)
 
         #Creating Image Folder
-        self.directory = "backend/CameraFeed/{}".format(self.dt_string)
+        self.directory = "CameraFeed/{}".format(self.dt_string)
         parent_dir = os.path.abspath(os.path.join(os.getcwd(), os.pardir))
         path = os.path.join(parent_dir, self.directory)
         logger.warning("create photo:  "+path)

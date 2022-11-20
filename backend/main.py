@@ -3,11 +3,17 @@
 import time, logging
 import logging.config
 logger = logging.getLogger(__name__)
+logger.warning("done")
 from camera import Camera
+logger.warning("done")
 from facialEmotionRecognition import EmotionalAnalyzer 
+logger.warning("done")
 from data import Data
+logger.warning("done")
 import pandas as pd
+logger.warning("done")
 from datetime import datetime
+logger.warning("done")
 
 #Main Function that controls the rest of the backend server
 class Main:
@@ -75,7 +81,7 @@ class Main:
 
     #Writes data to csv
     def writeData(self):
-        self.data.writeData("data.csv")
+        self.data.writeData("backend/data.csv")
 
 #Testing main function
 if __name__ == "__main__":
