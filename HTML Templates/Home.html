@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <!-- Intialize Style Sheets -->
+        <!-- Intialize Style Sheets -->}
         <link href="Styles/home.css" rel="stylesheet">
         <link href="Styles/utility.css" rel = "stylesheet">    
         
@@ -56,18 +56,18 @@
                 var fearTextHolder = document.getElementById('fearTextHolder');
                 var disgustTextHolder = document.getElementById('disgustTextHolder');
                 //Change Graph Bar Lengths
-                Happy.style.width = `${1320*happy}px`;
-                Angry.style.width= `${1320*angry}px`;
-                Surprise.style.width= `${1320*surprise}px`;
-                Sad.style.width= `${1320*sad}px`;
-                Fear.style.width= `${1320*fear}px`;
-                Disgust.style.width= `${1320*disgust}px`;
-                happyTextHolder.style.left=`${happy*1320+277}px`;
-                angryTextHolder.style.left=`${angry*1320+277}px`;
-                surpriseTextHolder.style.left=`${surprise*1320+277}px`;
-                sadTextHolder.style.left=`${sad*1320+277}px`;
-                fearTextHolder.style.left=`${fear*1320+277}px`;
-                disgustTextHolder.style.left=`${disgust*1320+277}px`;
+                Happy.style.width = `${1000*happy}px`;
+                Angry.style.width= `${1000*angry}px`;
+                Surprise.style.width= `${1000*surprise}px`;
+                Sad.style.width= `${1000*sad}px`;
+                Fear.style.width= `${1000*fear}px`;
+                Disgust.style.width= `${1000*disgust}px`;
+                happyTextHolder.style.left=`${happy*1000}px`;
+                angryTextHolder.style.left=`${angry*1000}px`;
+                surpriseTextHolder.style.left=`${surprise*1000}px`;
+                sadTextHolder.style.left=`${sad*1000}px`;
+                fearTextHolder.style.left=`${fear*1000}px`;
+                disgustTextHolder.style.left=`${disgust*1000}px`;
                 //Round emotion Data
                 happy = Math.round(happy*100);
                 angry = Math.round(angry*100);
@@ -88,33 +88,77 @@
     <!-- Main Body -->
     <body visibility = "hidden" id = "body">
         <!-- Title-->
-        <h1>EMONITOR</h1>
+        <div class="side" id="menuButtonGrid">            
+            <button class="whiteMenuButton" id = "homeButton" onclick ="openSettings()">
+                <img src = "./Images/home.png" style = "padding-right: 10px; padding-left: 10px;"/>
+                <span class ="buttonText">Home</span>
+            </button>
+            <button class="blackMenuButton" id = "summaryButton" onclick = "window.location.href='Summary.html'">
+                <img src = "./Images/summary.png" style = "padding-right: 10px; padding-left: 10px;"/>
+                <span class ="buttonText">Summary</span>
+            </button>
+            <button class="blackMenuButton" id = "historyButton" onclick = "window.location.href='History.html'">
+                <img src = "./Images/history.png" style = "padding-right: 10px; padding-left: 10px;"/>
+                <span class ="buttonText">History</span>
+            </button>
+        </div>
+        <div class="nav">
+            <h1>The AppThatRecordsYou</h1>
+        </div>
+        
         <!-- Settings Button -->
-        <button id ="settingsButton" onclick = "openSettings()">
+        <!-- <button id ="settingsButton" onclick = "openSettings()">
             <img src="Images/settings.png"/>
-        </button>
+        </button> -->
         <!-- Record Button -->
-        <button type = "button" id="recordButton"  onclick="record()">Record</button>
+        
         <!-- Emojis for Grids -->
-        <div class="grid" id="emojiGrid">
+        <div class="flex" id="change">
+            <div class="ind">
+                <img src="../Emojis/happy.png" alt="Happy Emoji"> 
+                <div class= "graphBar" id = "Happy" style="background: #ffd400; width:1000px;"></div>
+            </div>
+            <div class="ind">
+                <img src="../Emojis/angry.png" alt="Happy Emoji"> 
+                <div class= "graphBar" id = "Happy" style="background: #eb5130; width:39.6px;"></div>
+            </div>
+            <div class="ind">
+                <img src="../Emojis/surprise.png" alt="Happy Emoji"> 
+                <div class= "graphBar" id = "Happy" style="background: #fbedd9; width: 26.4px;"></div>
+            </div>
+            <div class="ind">
+                <img src="../Emojis/sad.png" alt="Happy Emoji"> 
+                <div class= "graphBar" id = "Happy" style="background: #22bbe4; width:92.4px;"></div>
+            </div>
+            <div class="ind">
+                <img src="../Emojis/fear.png" alt="Happy Emoji"> 
+                <div class= "graphBar" id = "Happy" style="background: #b143d9; width:118.8px;"></div>
+            </div>
+            <div class="ind">
+                <img src="../Emojis/disgust.png" alt="Happy Emoji"> 
+                <div class= "graphBar" id = "Happy" style="background: #3dc34a; width:13.2px;"></div>
+            </div>
+        </div>
+        <button type = "button" id="recordButton"  onclick="record()">Record</button>
+        <!-- <div class="grid" id="emojiGrid">
             <img src="../Emojis/happy.png" alt="Happy Emoji"> 
             <img src="../Emojis/angry.png" alt="Angry Emoji">
             <img src="../Emojis/surprise.png" alt="Surprise Emoji">
             <img src="../Emojis/sad.png" alt="Sad Emoji">
             <img src="../Emojis/fear.png" alt="Fear Emoji">
             <img src="../Emojis/disgust.png" alt="Disgust Emoji">
-        </div>
+        </div> -->
         <!-- Graph Bars -->
-        <div class="grid" id="graphBarGrid">
-            <div class= "graphBar" id = "Happy" style="background: #ffd400; width:1320px;"></div> 
+        <!-- <div class="grid" id="graphBarGrid">
+            <div class= "graphBar" id = "Happy" style="background: #ffd400; width:1000px;"></div> 
             <div class = "graphBar" id = "Angry" style="background: #eb5130; width:39.6px;"></div>
             <div class = "graphBar" id = "Surprise" style="background: #fbedd9; width:26.4px;"></div>
             <div class = "graphBar" id = "Sad" style="background: #22bbe4; width:92.4px;"></div>
             <div class = "graphBar" id = "Fear" style="background: #b143d9; width:118.8px;"></div>
             <div class = "graphBar" id = "Disgust" style="background: #3dc34a; width:13.2px;"></div>
-        </div>
+        </div> -->
         <!-- Text for Graph Bars -->
-        <div id ="happyTextHolder" style = "position: absolute; left: 1597px; top: 247px; height: 40px; width: 88px; transform: rotate(90deg); transition: left 0.5s 0s;">
+        <!-- <div id ="happyTextHolder" style = "position: absolute; left: 1597px; top: 247px; height: 40px; width: 88px; transform: rotate(90deg); transition: left 0.5s 0s;">
             <p class="graphBarText" id = "happyText">99%</p>
         </div>
         <div id ="angryTextHolder" style = "position: absolute; left: 316.6px; top: 351px; height: 40px; width: 88px; transform: rotate(90deg); transition: left 0.5s 0s;">
@@ -131,22 +175,8 @@
         </div>
         <div id ="disgustTextHolder" style = "position: absolute; left: 290.2px; top: 765px; height: 40px; width: 88px; transform: rotate(90deg); transition: left 0.5s 0s;">
             <p class="graphBarText" id = "disgustText">1%</p>
-        </div>
+        </div> -->
         <!-- Menu Bar -->
-        <div id= "menuBar"></div>
-        <div class="grid" id="menuButtonGrid">            
-            <button class="whiteMenuButton" id = "homeButton" onclick ="window.location.href='Home.html'">
-                <img src = "./Images/home.png" style = "padding-right: 18px; padding-left: 10px;"/>
-                <span class ="buttonText">Home</span>
-            </button>
-            <button class="blackMenuButton" id = "summaryButton" onclick = "window.location.href='Summary.html'">
-                <img src = "./Images/summary.png" style = "padding-right: 18px; padding-left: 10px;"/>
-                <span class ="buttonText">Summary</span>
-            </button>
-            <button class="blackMenuButton" id = "historyButton" onclick = "window.location.href='History.html'">
-                <img src = "./Images/history.png" style = "padding-right: 18px; padding-left: 10px;"/>
-                <span class ="buttonText">History</span>
-            </button>
-        </div>
+        
     </body>
 </html>

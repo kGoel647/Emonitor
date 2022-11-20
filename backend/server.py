@@ -74,8 +74,6 @@ def captureImage():
 #Creates a proper application
 if __name__ == "__main__": 
     logging.warning("Ready to accept")
-    print("waofh")
     new_thread = Thread(target = captureImage)
-    print("hu")
     new_thread.start()
     app.run(port=5000)

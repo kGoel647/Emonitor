@@ -34,7 +34,7 @@ class Main:
 
         self.data = Data()
         logger.warning("Created Data Object")
-        self.data.loadData("backend/data.csv")
+        self.data.loadData("backend\data.csv")
         logger.warning("Loaded Data")
         self.recording=False
 
@@ -76,7 +76,7 @@ class Main:
         # self.data.generateGraph()
         if (self.recording):
             self.data.addRow(data)
-            self.data.writeData("backend/data.csv")
+            self.data.writeData("backend\data.csv")
         return data
 
     #Writes data to csv
@@ -85,9 +85,7 @@ class Main:
 
 #Testing main function
 if __name__ == "__main__":
-    logger.warning("OKAY")
     logger = logging.getLogger(__name__)
-    logger.warning("hui")
     m = Main()
     m.analyze()
 

@@ -92,39 +92,156 @@
     <body>
         <!-- Title -->
         <h1>Summary</h1>
+        
+        <div class="show">
+            <div id = "emojiDropDown1" class = "emojiDropDown">
+                <div type ="button" class="emojiDropDownOptions" id ="emojiDropDownOption17" onclick="selectOpt(0, 0)">
+                    <img class = "option" src="Images/none.png"/>
+                </div>
+                <div type ="button" class="emojiDropDownOptions" id ="emojiDropDownOption16" onclick="selectOpt(0, 1)">
+                    <img class = "option" src="../Emojis/sad.png"/>
+                </div>
+                <div type ="button" class="emojiDropDownOptions" id ="emojiDropDownOption15" onclick="selectOpt(0, 2)">
+                    <img class = "option" src="../Emojis/fear.png"/>
+                </div>
+                <div type ="button" class="emojiDropDownOptions" id ="emojiDropDownOption14" onclick="selectOpt(0, 3)">
+                    <img class = "option" src="../Emojis/disgust.png"/>
+                </div>
+                <div type ="button" class="emojiDropDownOptions" id ="emojiDropDownOption13" onclick="selectOpt(0, 4)">
+                    <img class = "option" src="../Emojis/surprise.png"/>
+                </div>
+                <div type ="button" class="emojiDropDownOptions" id ="emojiDropDownOption12" onclick="selectOpt(0, 5)"> 
+                    <img class = "option" src="../Emojis/angry.png"/>
+                </div>
+                <div type ="button" class="emojiDropDownOptions" id ="emojiDropDownOption11" onclick="selectOpt(0, 6)">
+                    <img class = "option" src="../Emojis/happy.png"/>
+                </div>
+                <div type = "button" class ="emojiDropDownSelected" id = "emojiDropDownSelected1">
+                    <img class = "option"/>
+                </div>
+            </div>
+
+
+            <div id = "emojiDropDown2" class = "emojiDropDown">
+                <div type ="button" class="emojiDropDownOptions" id ="emojiDropDownOption27" onclick="selectOpt(1, 0)">
+                    <img class = "option" src = "Images/none.png"/>
+                </div>
+                <div type ="button" class="emojiDropDownOptions" id ="emojiDropDownOption26" onclick="selectOpt(1, 1)">
+                    <img class = "option" src="../Emojis/sad.png"/>
+                </div>
+                <div type ="button" class="emojiDropDownOptions" id ="emojiDropDownOption25" onclick="selectOpt(1, 2)">
+                    <img class = "option" src="../Emojis/fear.png"/>
+                </div>
+                <div type ="button" class="emojiDropDownOptions" id ="emojiDropDownOption24" onclick="selectOpt(1, 3)">
+                    <img class = "option" src="../Emojis/disgust.png"/>
+                </div>
+                <div type ="button" class="emojiDropDownOptions" id ="emojiDropDownOption23" onclick="selectOpt(1, 4)">
+                    <img class = "option" src="../Emojis/surprise.png"/>
+                </div>
+                <div type ="button" class="emojiDropDownOptions" id ="emojiDropDownOption22" onclick="selectOpt(1, 5)"> 
+                    <img class = "option" src="../Emojis/angry.png"/>
+                </div>
+                <div type ="button" class="emojiDropDownOptions" id ="emojiDropDownOption21" onclick="selectOpt(1, 6)">
+                    <img class = "option" src="../Emojis/happy.png"/>
+                </div>
+                <div type = "button" class ="emojiDropDownSelected" id = "emojiDropDownSelected2">
+                    <img class = "option"/>
+                </div>
+            </div>
+
+            <div id = "emojiDropDown3" class = "emojiDropDown">
+                <div type ="button" class="emojiDropDownOptions" id ="emojiDropDownOption37" onclick="selectOpt(2, 0)">
+                    <img class = "option" src="Images/none.png"/>
+                </div>
+                <div type ="button" class="emojiDropDownOptions" id ="emojiDropDownOption36" onclick="selectOpt(2, 1)">
+                    <img class = "option" src="../Emojis/sad.png"/>
+                </div>
+                <div type ="button" class="emojiDropDownOptions" id ="emojiDropDownOption35" onclick="selectOpt(2, 2)">
+                    <img class = "option" src="../Emojis/fear.png"/>
+                </div>
+                <div type ="button" class="emojiDropDownOptions" id ="emojiDropDownOption34" onclick="selectOpt(2, 3)">
+                    <img class = "option" src="../Emojis/disgust.png"/>
+                </div>
+                <div type ="button" class="emojiDropDownOptions" id ="emojiDropDownOption33" onclick="selectOpt(2, 4)">
+                    <img class = "option" src="../Emojis/surprise.png"/>
+                </div>
+                <div type ="button" class="emojiDropDownOptions" id ="emojiDropDownOption32" onclick="selectOpt(2, 5)"> 
+                    <img class = "option" src="../Emojis/angry.png"/>
+                </div>
+                <div type ="button" class="emojiDropDownOptions" id ="emojiDropDownOption31" onclick="selectOpt(2, 6)">
+                    <img class = "option" src="../Emojis/happy.png"/>
+                </div>
+                <div type = "button" class ="emojiDropDownSelected" id = "emojiDropDownSelected3">
+                    <img class = "option"/>
+                </div>
+                
+            </div>
+            <button id = "selectButton" onclick = "sendEmotions()">OK</button>
+        </div>
+        <div class="pls" position="absolute">
+                
+            <p id = "Applications">Applications</p>
+            <input type="checkbox" id="switch" />
+            <label for="switch" onclick = "switchCompare()">Toggle</label>
+            <p id = "Timings">Timings</p>
+        </div>
+        <!-- Work -->
+        <div class="table" position="absolute">
+            <div class="item">
+                <p class = "appText" id = "text1">Application #1</p>
+                <div class="graphBar" id = "bar1" style = "width: 186px;"></div>
+            </div>
+            <div class="item">
+                <p class = "appText" id = "text1">Application #1</p>
+                <div class="graphBar" id = "bar1" style = "width: 186px;"></div>
+            </div>
+            <div class="item">
+                <p class = "appText" id = "text1">Application #1</p>
+                <div class="graphBar" id = "bar1" style = "width: 186px;"></div>
+            </div>
+            <div class="item">
+                <p class = "appText" id = "text1">Application #1</p>
+                <div class="graphBar" id = "bar1" style = "width: 186px;"></div>
+            </div>
+            <div class="item">
+                <p class = "appText" id = "text1">Application #1</p>
+                <div class="graphBar" id = "bar1" style = "width: 186px;"></div>
+            </div>
+            
+        </div>
         <!-- Grid for each Graph Bar -->
-        <div id = "graphBarGrid">
+        <!-- <div id = "graphBarGrid">
             <div class="graphBar" id = "bar1" style = "width: 186px;"></div>
             <div class="graphBar" id = "bar2" style = "width: 186px;"></div>
             <div class="graphBar" id = "bar3" style = "width: 186px;"></div>
             <div class="graphBar" id = "bar4" style = "width: 186px;"></div>
             <div class="graphBar" id = "bar5" style = "width: 186px;"></div>
-        </div>
+        </div> -->
         <!-- Text for Applications/Times -->
-        <div id = "textGrid">
+        <!-- <div id = "textGrid">
             <p class = "appText" id = "text1">Application #1</p>
             <p class = "appText" id = "text2">Application #2</p>
             <p class = "appText" id = "text3">Application #3</p>
             <p class = "appText" id = "text4">Application #4</p>
             <p class = "appText" id = "text5">Application #5</p>
-        </div>
+        </div> -->
         <!-- Lines For Text Table -->
-        <div type = "grid" id= "lineGrid">
+        <!-- <div type = "grid" id= "lineGrid">
             <div class = "sepLine"></div>
             <div class = "sepLine"></div>
             <div class = "sepLine"></div>
             <div class = "sepLine"></div>
             <div class = "sepLine"></div>
             <div class = "sepLine"></div>
-        </div>
-        <div id = "graphTextLine"></div>
+        </div> -->
+        <!-- <div id = "graphTextLine"></div> -->
         <!-- Switch for Comparing between Application/Times -->
-        <input type="checkbox" id="switch" />
+        <!-- <input type="checkbox" id="switch" />
         <label for="switch" onclick = "switchCompare()">Toggle</label>
         <p id = "Applications">Applications</p>
-        <p id = "Timings">Timings</p>
+        <p id = "Timings">Timings</p> -->
         <!-- Three Dropdowns for Emotions -->
-        <div type="grid" id = "dropDownGrid">
+        <!-- <div type="grid" id = "dropDownGrid">
             <div id = "emojiDropDown1" class = "emojiDropDown">
 
                 <div type ="button" class="emojiDropDownOptions" id ="emojiDropDownOption17" onclick="selectOpt(0, 0)">
@@ -205,9 +322,7 @@
                 <div type = "button" class ="emojiDropDownSelected" id = "emojiDropDownSelected3">
                     <img class = "option"/>
                 </div>
-            </div>
-
-            <button id = "selectButton" onclick = "sendEmotions()">OK</button>
+            </div> -->
         </div>
         <!-- Menu Bar -->
         <div id= "menuBar"></div>
@@ -216,7 +331,7 @@
                 <img src = "./Images/home.png" style = "padding-right: 18px; padding-left: 10px;"/>
                 <span class ="buttonText">Home</span>
             </button>
-            <button class="whiteMenuButton" id = "summaryButton" onclick = "window.location.href='Summary.html'">
+            <button class="whiteMenuButton" id = "summaryButton" onclick = "openSettings()">
                 <img src = "./Images/summary.png" style = "padding-right: 18px; padding-left: 10px;"/>
                 <span class ="buttonText">Summary</span>
             </button>
@@ -226,8 +341,8 @@
             </button>
         </div>
         <!-- Settings Button -->
-        <button id ="settingsButton" onclick = "openSettings()">
+        <!-- <button id ="settingsButton" onclick = "openSettings()">
             <img src="Images/settings.png"/>
-        </button>
+        </button> -->
     </body>
 </html>
